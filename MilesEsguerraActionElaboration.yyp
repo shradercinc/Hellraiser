@@ -64,6 +64,7 @@
     {"id":{"name":"obj_cloudgone1","path":"objects/obj_cloudgone1/obj_cloudgone1.yy",},"order":7,},
     {"id":{"name":"snd_startscreen","path":"sounds/snd_startscreen/snd_startscreen.yy",},"order":9,},
     {"id":{"name":"snd_drop","path":"sounds/snd_drop/snd_drop.yy",},"order":8,},
+    {"id":{"name":"Obj_TEST","path":"objects/Obj_TEST/Obj_TEST.yy",},"order":19,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [

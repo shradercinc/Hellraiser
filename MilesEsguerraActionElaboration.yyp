@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"obj_fadeintitle","path":"objects/obj_fadeintitle/obj_fadeintitle.yy",},"order":16,},
     {"id":{"name":"spr_platform4gone","path":"sprites/spr_platform4gone/spr_platform4gone.yy",},"order":15,},
+    {"id":{"name":"Obj_TEST","path":"objects/Obj_TEST/Obj_TEST.yy",},"order":19,},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"order":13,},
     {"id":{"name":"obj_platform","path":"objects/obj_platform/obj_platform.yy",},"order":1,},
     {"id":{"name":"obj_endmanager","path":"objects/obj_endmanager/obj_endmanager.yy",},"order":18,},

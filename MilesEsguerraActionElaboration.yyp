@@ -50,6 +50,7 @@
     {"id":{"name":"obj_cloudgone3","path":"objects/obj_cloudgone3/obj_cloudgone3.yy",},"order":9,},
     {"id":{"name":"title","path":"rooms/title/title.yy",},"order":1,},
     {"id":{"name":"obj_instructiontext","path":"objects/obj_instructiontext/obj_instructiontext.yy",},"order":14,},
+    {"id":{"name":"Obj_TEST2","path":"objects/Obj_TEST2/Obj_TEST2.yy",},"order":20,},
     {"id":{"name":"fnt_subtitle","path":"fonts/fnt_subtitle/fnt_subtitle.yy",},"order":1,},
     {"id":{"name":"dead","path":"rooms/dead/dead.yy",},"order":2,},
     {"id":{"name":"spr_platform1","path":"sprites/spr_platform1/spr_platform1.yy",},"order":8,},

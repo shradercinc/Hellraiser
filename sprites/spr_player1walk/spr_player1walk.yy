@@ -38,7 +38,7 @@
     "spriteId": {"name":"spr_player1walk","path":"sprites/spr_player1walk/spr_player1walk.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 0.0,
+    "playbackSpeed": 3.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,

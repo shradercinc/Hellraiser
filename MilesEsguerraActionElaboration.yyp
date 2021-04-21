@@ -64,7 +64,6 @@
     {"id":{"name":"spr_subtext","path":"sprites/spr_subtext/spr_subtext.yy",},"order":19,},
     {"id":{"name":"obj_titletext","path":"objects/obj_titletext/obj_titletext.yy",},"order":12,},
     {"id":{"name":"fnt_score","path":"fonts/fnt_score/fnt_score.yy",},"order":0,},
-    {"id":{"name":"OBJ_TEST","path":"objects/OBJ_TEST/OBJ_TEST.yy",},"order":20,},
     {"id":{"name":"obj_cloudgone1","path":"objects/obj_cloudgone1/obj_cloudgone1.yy",},"order":7,},
     {"id":{"name":"snd_startscreen","path":"sounds/snd_startscreen/snd_startscreen.yy",},"order":9,},
     {"id":{"name":"snd_drop","path":"sounds/snd_drop/snd_drop.yy",},"order":8,},

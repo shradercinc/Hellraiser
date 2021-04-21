@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"obj_fadeintitle","path":"objects/obj_fadeintitle/obj_fadeintitle.yy",},"order":16,},
+    {"id":{"name":"spr_uipound","path":"sprites/spr_uipound/spr_uipound.yy",},"order":2,},
     {"id":{"name":"spr_platform4gone","path":"sprites/spr_platform4gone/spr_platform4gone.yy",},"order":15,},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"order":13,},
     {"id":{"name":"obj_platform","path":"objects/obj_platform/obj_platform.yy",},"order":1,},
@@ -23,6 +24,7 @@
     {"id":{"name":"spr_platform3gone","path":"sprites/spr_platform3gone/spr_platform3gone.yy",},"order":14,},
     {"id":{"name":"spr_platform3","path":"sprites/spr_platform3/spr_platform3.yy",},"order":6,},
     {"id":{"name":"snd_woosh","path":"sounds/snd_woosh/snd_woosh.yy",},"order":0,},
+    {"id":{"name":"spr_uislash","path":"sprites/spr_uislash/spr_uislash.yy",},"order":1,},
     {"id":{"name":"spr_platform2gone","path":"sprites/spr_platform2gone/spr_platform2gone.yy",},"order":13,},
     {"id":{"name":"snd_kick","path":"sounds/snd_kick/snd_kick.yy",},"order":6,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":2,},

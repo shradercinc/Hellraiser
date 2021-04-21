@@ -22,6 +22,7 @@
     {"id":{"name":"spr_platform3gone","path":"sprites/spr_platform3gone/spr_platform3gone.yy",},"order":14,},
     {"id":{"name":"spr_platform3","path":"sprites/spr_platform3/spr_platform3.yy",},"order":6,},
     {"id":{"name":"snd_woosh","path":"sounds/snd_woosh/snd_woosh.yy",},"order":0,},
+    {"id":{"name":"Obj_TESTCOLE","path":"objects/Obj_TESTCOLE/Obj_TESTCOLE.yy",},"order":20,},
     {"id":{"name":"spr_platform2gone","path":"sprites/spr_platform2gone/spr_platform2gone.yy",},"order":13,},
     {"id":{"name":"snd_kick","path":"sounds/snd_kick/snd_kick.yy",},"order":6,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":2,},

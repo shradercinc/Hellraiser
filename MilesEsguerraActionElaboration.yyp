@@ -53,6 +53,7 @@
     {"id":{"name":"fnt_subtitle","path":"fonts/fnt_subtitle/fnt_subtitle.yy",},"order":1,},
     {"id":{"name":"dead","path":"rooms/dead/dead.yy",},"order":2,},
     {"id":{"name":"spr_platform1","path":"sprites/spr_platform1/spr_platform1.yy",},"order":8,},
+    {"id":{"name":"milestestobj","path":"objects/milestestobj/milestestobj.yy",},"order":20,},
     {"id":{"name":"obj_player2","path":"objects/obj_player2/obj_player2.yy",},"order":3,},
     {"id":{"name":"spr_gamebg","path":"sprites/spr_gamebg/spr_gamebg.yy",},"order":22,},
     {"id":{"name":"snd_cloud","path":"sounds/snd_cloud/snd_cloud.yy",},"order":2,},
@@ -113,7 +114,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.2.556",
+    "IDEVersion": "2.3.2.560",
   },
   "resourceVersion": "1.4",
   "name": "MilesEsguerraActionElaboration",

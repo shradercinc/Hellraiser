@@ -55,6 +55,7 @@
     {"id":{"name":"title","path":"rooms/title/title.yy",},"order":1,},
     {"id":{"name":"obj_jocelyn","path":"objects/obj_jocelyn/obj_jocelyn.yy",},"order":22,},
     {"id":{"name":"obj_instructiontext","path":"objects/obj_instructiontext/obj_instructiontext.yy",},"order":14,},
+    {"id":{"name":"spr_uihpbar","path":"sprites/spr_uihpbar/spr_uihpbar.yy",},"order":4,},
     {"id":{"name":"fnt_subtitle","path":"fonts/fnt_subtitle/fnt_subtitle.yy",},"order":1,},
     {"id":{"name":"dead","path":"rooms/dead/dead.yy",},"order":2,},
     {"id":{"name":"spr_platform1","path":"sprites/spr_platform1/spr_platform1.yy",},"order":8,},

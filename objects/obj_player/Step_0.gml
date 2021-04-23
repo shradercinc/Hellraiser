@@ -1,4 +1,4 @@
- /// @description Insert description here
+/// @description Insert description here
 // You can write your code in this editor
 
 if( (x+xSpeed) < 0 || (x+xSpeed) > room_width){
@@ -7,10 +7,6 @@ if( (x+xSpeed) < 0 || (x+xSpeed) > room_width){
 }
 
 ySpeed += grav; 
-if(ySpeed > 5)
-{
-	ySpeed = 5;
-}
 
 x += xSpeed;
 xSpeed *= drag;
@@ -41,7 +37,7 @@ if(knockout != true){
 		audio_play_sound(snd_drop, 1, false);
 		xSpeed = 0;
 		ySpeed = 3;
-		grav = knockout_grav;
+		grav = 0.8;
 		drop_active = true;
 		alarm[3] = 0.8*room_speed;
 		}
@@ -74,7 +70,7 @@ for( var i = 0; i < abs(ySpeed); i++){
 
 	
 	if(ySpeed > 0 && collision_with_plat != noone && grav != launch_grav ){   //platform collisions
-		grav = B_grav;
+		grav = 0.1;
 		ySpeed = jump_vel;   //if collision, jump
 		audio_play_sound(snd_cloud, 1, false);
 		collision_with_plat.image_speed = 1;
@@ -85,7 +81,7 @@ for( var i = 0; i < abs(ySpeed); i++){
 		} 
 	
 	if(ySpeed > 0 && collision_with_enemy != noone && grav != launch_grav){
-		grav = B_grav;
+		grav = 0.1;
 		instance_create_layer(x, y, "Instances", obj_die);
 		ySpeed = jump_vel;
 		audio_play_sound(snd_ouch, 1, false);
@@ -103,7 +99,7 @@ for( var i = 0; i < abs(ySpeed); i++){
 
 //hits bottom of room
 if((y > room_height + 100) && (deathtimer == 0)){
-	grav = init_grav;
+	grav = 0.1;
 	deathtimer += 1;
 	global.playerlives -= 1;
 	alarm[0] = 2*room_speed

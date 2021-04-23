@@ -1,7 +1,8 @@
 
 invultimer--; //timer that affects how soon you can die when you respawn
 
-if( (x+xSpeed) < 0 || (x+xSpeed) > room_width){
+if( (x+xSpeed) < 0 || (x+xSpeed) > room_width)
+{
 	xSpeed = -xSpeed;
 	audio_play_sound(snd_wall,1,false);
 }

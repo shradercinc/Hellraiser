@@ -20,7 +20,7 @@ x_accel = 0.92;
 
 drag = 0.95;
 deathtimer = 0;
-	invultimerM = 2 * room_speed;
+invultimerM = 2 * room_speed;
 invultimer = invultimerM;
 
 xSpeed = 0;

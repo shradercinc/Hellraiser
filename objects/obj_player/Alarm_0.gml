@@ -10,7 +10,7 @@ randomize();
 	audio_play_sound(snd_woosh, 1, false);
 	obj_player.y = p1ySpawn;
 	obj_player.x = p1xSpawn;
-	obj_player.ySpeed = obj_player.jump_vel*1.1;
+	obj_player.ySpeed = obj_player.jump_vel*1.25;
 	obj_player.xSpeed = p1spawnspeed;
 	obj_player.knockout = false;
 

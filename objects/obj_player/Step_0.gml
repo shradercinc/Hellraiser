@@ -1,8 +1,7 @@
+ /// @description Insert description here
+// You can write your code in this editor
 
-invultimer--; //timer that affects how soon you can die when you respawn
-
-if( (x+xSpeed) < 0 || (x+xSpeed) > room_width)
-{
+if( (x+xSpeed) < 0 || (x+xSpeed) > room_width){
 	xSpeed = -xSpeed;
 	audio_play_sound(snd_wall,1,false);
 }
@@ -38,11 +37,11 @@ if(knockout != true){
 	}
 	
 	
-	if(keyboard_check_pressed(ord("S")) && drop_active == false){
+	if(keyboard_check_pressed(ord("R")) && drop_active == false){
 		audio_play_sound(snd_drop, 1, false);
 		xSpeed = 0;
 		ySpeed = 3;
-		grav = pound_grav;
+		grav = knockout_grav;
 		drop_active = true;
 		alarm[3] = 0.8*room_speed;
 		}
@@ -66,37 +65,39 @@ if(knockout == true){
 
 
 //collisions
-//var new_y = y + ySpeed;
-for(var i = 0; i < abs(ySpeed); i++)
-{
-		y += ySpeed;
-//	new_y = y + sign(ySpeed);
-//	var collision_with_plat = instance_place(x, y, obj_platform);
-//	var collision_with_enemy = instance_place(x, y, obj_enemy);
-//	if(ySpeed > 0 && collision_with_plat != noone && grav != launch_grav ) //platform collisions
-//	{  
-//		grav = B_grav;
-//		ySpeed = jump_vel;   //if collision, jump
-//		audio_play_sound(snd_cloud, 1, false);
-//		collision_with_plat.image_speed = 1;
-//		collision_with_plat.bonk = true;
-//		collision_with_plat.destroy_in = .5 * room_speed; //destroy inst
-//		y = new_y; 
-//		break;
-//	} 	
-//	if(ySpeed > 0 && collision_with_enemy != noone && grav != launch_grav && knockout = false && invultimer > 0)
-//	{
-//		grav = B_grav;
-//		instance_create_layer(x, y, "Instances", obj_die);
-//		ySpeed = jump_vel;
-//		audio_play_sound(snd_ouch, 1, false);
-//		global.P1points++;
-//		knockout = true;
-//		collision_with_enemy.y = collision_with_enemy.y + 10;
-//		collision_with_enemy.grav = collision_with_enemy.knockoutgrav;
-//		y = new_y;
-//		break;
-//	}
+var new_y = y + ySpeed;
+for( var i = 0; i < abs(ySpeed); i++){
+	
+	new_y = y + sign(ySpeed);
+	var collision_with_plat = instance_place(x, y, obj_platform);
+	var collision_with_enemy = instance_place(x, y, obj_enemy);
+
+	
+	if(ySpeed > 0 && collision_with_plat != noone && grav != launch_grav ){   //platform collisions
+		grav = B_grav;
+		ySpeed = jump_vel;   //if collision, jump
+		audio_play_sound(snd_cloud, 1, false);
+		collision_with_plat.image_speed = 1;
+		collision_with_plat.bonk = true;
+		collision_with_plat.destroy_in = .5 * room_speed; //destroy inst
+		y = new_y; 
+		break;
+		} 
+	
+	if(ySpeed > 0 && collision_with_enemy != noone && grav != launch_grav){
+		grav = B_grav;
+		instance_create_layer(x, y, "Instances", obj_die);
+		ySpeed = jump_vel;
+		audio_play_sound(snd_ouch, 1, false);
+		global.P1points++;
+		collision_with_enemy.y = collision_with_enemy.y + 10;
+		collision_with_enemy.grav = collision_with_enemy.knockoutgrav;
+		y = new_y;
+		break;
+		}
+
+	y += ySpeed;
+	
 }
 
 

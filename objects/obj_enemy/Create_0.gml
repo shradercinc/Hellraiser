@@ -4,7 +4,10 @@ randomize();
 
 //ySpeed = 7;
 jump_vel = -3;
-spawnvel = random_range(-4, -8);
-grav = random_range(0.1, 0.2);
+spawnvel = random_range(-6, -9);
+grav = random_range(0.5, 0.1);
 knockoutgrav = 1;
 knockout = false;
+
+
+

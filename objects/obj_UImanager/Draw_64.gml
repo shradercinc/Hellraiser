@@ -16,13 +16,22 @@ draw_sprite_stretched(spr_uihp, 0, healthbar_x , healthbar_y, (p1health/p1maxhea
 draw_sprite_ext(spr_uihpbar, 1, 30, 50, 5.5, 5.5, 0, c_white, 1); //top visual
 
 
-//draw skills
-	//shadows underneath
+
+//shadows underneath skills
 	draw_sprite_ext(spr_uidash, 1, uidashslot_x + 10, ui_y +10, 4.5, 4.5, 0, c_black, 0.4);
 	draw_sprite_ext(spr_uipound, 1, uigroundpoundslot_x +10, ui_y +10, 4.5, 4.5, 0, c_black, 0.4);
-	draw_sprite_ext(spr_uislash, 1, uislashslot_x +10, ui_y +10, 4.5, 4.5, 0, c_black, 0.4);
+	//draw_sprite_ext(spr_uislash, 1, uislashslot_x +10, ui_y +10, 4.5, 4.5, 0, c_black, 0.4);
+	
+	draw_sprite_ext(dashcurrentfire, image_index, uidashslot_x +34, ui_y-50, 4.5, 4.5, 0, c_black, 0.4);
+	draw_sprite_ext(poundcurrentfire, image_index, uigroundpoundslot_x +34, ui_y-50, 4.5, 4.5, 0, c_black, 0.4);
 
+//draw skill loading flames
+draw_sprite_ext(dashcurrentfire, image_index, uidashslot_x +24, ui_y-60, 4.5, 4.5, 0, dashcolorshift, 1);
+draw_sprite_ext(poundcurrentfire, image_index, uigroundpoundslot_x +24, ui_y-60, 4.5, 4.5, 0, poundcolorshift, 1);
+//draw_sprite_ext(spr_uifiresm, image_index, uislashslot_x +25, ui_y-60, 4.5, 4.5, 0, c_red, 1);
+
+//draw skills
 draw_sprite_ext(spr_uidash, 1, uidashslot_x, ui_y, 4.5, 4.5, 0, c_white, 1);
 draw_sprite_ext(spr_uipound, 1, uigroundpoundslot_x, ui_y, 4.5, 4.5, 0, c_white, 1);
-draw_sprite_ext(spr_uislash, 1, uislashslot_x, ui_y, 4.5, 4.5, 0, c_white, 1);
+//draw_sprite_ext(spr_uislash, 1, uislashslot_x, ui_y, 4.5, 4.5, 0, c_white, 1);
 

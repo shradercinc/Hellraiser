@@ -1,6 +1,6 @@
 global.P1points = 0;
 global.P2points = 0;
-global.playerlives = 50;
+global.playerlives = 5;
 
 cam_vel_y = 0;
 CamVelAcc = 0.05;

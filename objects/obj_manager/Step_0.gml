@@ -15,7 +15,6 @@ for (i=0; i<numplayers; i++){
 	}
 	else {
 		camy += room_height - camera_get_view_height(view_camera[0]);
-		camx += room_width - camera_get_view_height(view_camera[0]) / 2;
 	}
 }
 

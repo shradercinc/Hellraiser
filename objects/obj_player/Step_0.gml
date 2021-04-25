@@ -101,6 +101,7 @@ for(var i = 0; i < abs(ySpeed); i++)
 
 //hits bottom of room
 if((y > room_height + 100) && (deathtimer == 0)){
+	obj_manager.pa = false;
 	grav = init_grav;
 	deathtimer += 1;
 	global.playerlives -= 1;

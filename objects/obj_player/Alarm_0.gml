@@ -1,10 +1,11 @@
 /// @description respawn
 
 randomize();
-	p1xSpawn = random_range(64, room_width - 64);
+	p1xSpawn = room_width/2;
 	p1ySpawn = room_height - 1;
 	p1spawnspeed = random_range(-10, 10);
 	invultimer = invultimerM;
+	obj_manager.pa = true;
 	
 	obj_player.deathtimer =  0;
 	audio_play_sound(snd_woosh, 1, false);

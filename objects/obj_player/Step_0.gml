@@ -13,7 +13,10 @@ if(ySpeed > 5)
 }
 
 x += xSpeed;
-xSpeed *= drag;
+if(kick_active = false)
+{
+	xSpeed *= drag;
+}
 
 if(knockout != true){
 	controller(ord("A"), ord("D"));
@@ -32,8 +35,8 @@ if(knockout != true){
 		kick_active = true;
 		ySpeed = 0;
 		grav = 0;
-		alarm[1] = 0.4*room_speed;
-		alarm[2] = 0.8*room_speed;
+		alarm[1] = 0.15*room_speed;
+		alarm[2] = 0.25*room_speed;
 	}
 	
 	

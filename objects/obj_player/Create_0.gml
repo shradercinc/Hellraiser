@@ -13,12 +13,15 @@ pound_grav = 0.8; //grav that affects the player when they're knocked out
 B_grav = 0.19; //base grav that is consistent through most of the game
 init_grav = 0.1; //grav when you respawn
 
-kick_accel = 15;
+kick_accel = 20;
 jump_vel = -5.8;
 
 x_accel = 0.92;
 
+//horizontal drag and its variations
 drag = 0.95;
+
+
 deathtimer = 0;
 invultimerM = 2 * room_speed;
 invultimer = invultimerM;

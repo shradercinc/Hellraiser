@@ -13,7 +13,6 @@ pound_grav = 0.8; //grav that affects the player when they're knocked out
 B_grav = 0.19; //base grav that is consistent through most of the game
 init_grav = 0.1; //grav when you respawn
 
-kick_accel = 20;
 jump_vel = -5.8;
 
 x_accel = 0.92;
@@ -30,6 +29,16 @@ xSpeed = 0;
 ySpeed = 0;
 
 image_speed = 0;
+
+//kick variables
+kick_accel = 20;
+timer_dl = 0;
+timer_dr = 0;
+timer_d_m = 0.085 * room_speed;
+
+charge_max = 2.5*room_speed;
+charge = charge_max;
+
 
 
 

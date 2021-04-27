@@ -1,16 +1,20 @@
-/// @description Insert description here
-// You can write your code in this editor
-
 spawnvel += grav;
+if(spawnvel > 4 and knockout = false)
+{
+	spawnvel = 4;
+}
 
-if(spawnvel > 0){
+if(spawnvel > 0)
+{
 	image_yscale = 1;	
 } 
-if(spawnvel < 0){
+if(spawnvel < 0)
+{
 	image_yscale = -1;	
 }
 
-if(y > room_height){
+if(y > room_height)
+{
 	instance_destroy();	
 }
 
@@ -22,27 +26,28 @@ for(var i = 0; i < abs(spawnvel); i++)
 	{
 	
 		var collision_with_slash = place_meeting(x, y, obj_slash);
-		var collision_with_player = place_meeting(x, y, obj_player);
+//		var collision_with_player = place_meeting(x, y, obj_player);
 
 		if(collision_with_slash == true){
 		knockout = true;
-	instance_create_layer(x, y, "Instances", obj_die);
-	audio_play_sound(snd_ouch, 1, false);
-	global.P1points++;
-	grav = knockoutgrav;
+		instance_create_layer(x, y, "Instances", obj_die);
+		audio_play_sound(snd_ouch, 1, false);
+		global.P1points++;
+		grav = knockoutgrav;
 	break;
 	}
 
-if(spawnvel > 0 && collision_with_player == true){
-	spawnvel = jump_vel;
-	obj_player.grav = obj_player.launch_grav;
-	obj_player.y = obj_player.y + 10;
-	instance_create_layer(x, y, "Instances", obj_die);
-	audio_play_sound(snd_ouch, 1, false);
-	obj_player.knockout = true;
-	obj_player.image_index = 4;
-	break;
-	}
+//if(spawnvel > 0 && collision_with_player == true){
+//	spawnvel = jump_vel;
+//	obj_player.grav = obj_player.launch_grav;
+//	obj_player.y = obj_player.y + 10;
+//	instance_create_layer(x, y, "Instances", obj_die);
+//	audio_play_sound(snd_ouch, 1, false);
+//	obj_player.knockout = true;
+//	obj_player.image_index = 4;
+//	break;
+//	}
 }
 	y += spawnvel;
 }
+

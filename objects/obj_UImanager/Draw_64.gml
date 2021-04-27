@@ -5,7 +5,7 @@ draw_set_font(fnt_score);
 
 p1score = global.P1points;
 p1health = global.playerlives;
-p1maxhealth = 50;
+p1maxhealth = 5;
 
 //draw HP bar 
 	//shadow underneath

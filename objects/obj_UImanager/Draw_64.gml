@@ -36,9 +36,11 @@ draw_sprite_ext(spr_uidash, 1, uidashslot_x, ui_y, 4.5, 4.5, 0, c_white, 1);
 draw_sprite_ext(spr_uipound, 1, uigroundpoundslot_x, ui_y, 4.5, 4.5, 0, c_white, 1);
 //draw_sprite_ext(spr_uislash, 1, uislashslot_x, ui_y, 4.5, 4.5, 0, c_white, 1);
 
+
+/*
 //key text
 draw_set_halign(fa_center);
 draw_set_font(fnt_verminvibes);
 draw_text_color(uidashslot_x -14, ui_y + 55, "[KEY]", c_white, c_white, c_white, c_white, 0.6);
 draw_text_color(uigroundpoundslot_x -14, ui_y + 55, "S", c_white, c_white, c_white, c_white, 0.6);
-
+/*

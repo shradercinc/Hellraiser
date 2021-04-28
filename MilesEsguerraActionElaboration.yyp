@@ -42,6 +42,7 @@
     {"id":{"name":"spr_fade","path":"sprites/spr_fade/spr_fade.yy",},"order":13,},
     {"id":{"name":"spr_player2DIE","path":"sprites/spr_player2DIE/spr_player2DIE.yy",},"order":11,},
     {"id":{"name":"spr_instructiontext","path":"sprites/spr_instructiontext/spr_instructiontext.yy",},"order":23,},
+    {"id":{"name":"spr_uifireextinguished","path":"sprites/spr_uifireextinguished/spr_uifireextinguished.yy",},"order":11,},
     {"id":{"name":"spr_player1DIE","path":"sprites/spr_player1DIE/spr_player1DIE.yy",},"order":10,},
     {"id":{"name":"spr_player2RIGHT","path":"sprites/spr_player2RIGHT/spr_player2RIGHT.yy",},"order":2,},
     {"id":{"name":"spr_platform2","path":"sprites/spr_platform2/spr_platform2.yy",},"order":7,},

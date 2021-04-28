@@ -150,6 +150,8 @@ if((y > room_height + 100) && (deathtimer == 0)){
 	obj_manager.pa = false;
 	grav = init_grav;
 	deathtimer += 1;
+	obj_UImanager.r += obj_UImanager.g*0.35; //change hp bar color
+	obj_UImanager.g -= obj_UImanager.g*0.35; //""
 	global.playerlives -= 1;
 	alarm[0] = 2*room_speed
 	knockout = true;
@@ -178,3 +180,22 @@ if( ySpeed == 0){ //if at top of jump, inbetween frame
 	image_index = 1;
 }
 
+//dash charge flames
+if(charge < charge_max/2){  //first half of charge
+	obj_UImanager.dashcurrentfire = spr_uifiresm;
+	obj_UImanager.dashcolorshift = c_red;
+}
+else if(charge < charge_max){ //second half of charge
+	obj_UImanager.dashcurrentfire = spr_uifiremid;
+	obj_UImanager.dashcolorshift = c_yellow;
+} 
+else if (charge > charge_max){ //fully charged
+	obj_UImanager.dashcurrentfire = spr_uifirelg;	
+	obj_UImanager.dashcolorshift = c_aqua;
+} 
+/*
+else if(){ //activated
+	obj_UImanager.dashcurrentfire = spr_uifireextinguished;
+	obj_UImanager.dashcolorshift = c_blue;
+}
+*/

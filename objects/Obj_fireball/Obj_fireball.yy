@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_uifiresm_1_1",
-    "path": "sprites/spr_uifiresm_1_1/spr_uifiresm_1_1.yy",
+    "name": "Spr_bat_fireball",
+    "path": "sprites/Spr_bat_fireball/Spr_bat_fireball.yy",
   },
   "solid": false,
   "visible": true,
@@ -21,7 +21,6 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":64,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
@@ -31,7 +30,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_UImanager",
+  "name": "Obj_fireball",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -11,7 +11,16 @@ if (knockout == false and other.knockout == false and kick_active = true)
 		audio_play_sound(snd_ouch, 1, false)
 		other.knockout = true;
 		other.grav = other.knockoutgrav;
-		ySpeed = jump_vel;
+		grav = B_grav
+		if(drop_active == false)
+		{
+			ySpeed = jump_vel;   //if collision, jump
+		}
+		if(drop_active == true)
+		{
+			ySpeed = drop_bounce;
+			drop_active = false;
+		}
 		global.P1points++
 	} else if(knockout == false and invultimer < 0 and other.knockout == false)
 		{

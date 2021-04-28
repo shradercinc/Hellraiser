@@ -5,7 +5,11 @@ depth = -20;
 
 knockout = false; 
 kick_active = false;
+
+jump_vel = -5.8;
+
 drop_active = false;
+drop_bounce = jump_vel * 1.2;
 
 grav = 0.1;
 launch_grav = 0.55;
@@ -13,7 +17,7 @@ pound_grav = 0.8; //grav that affects the player when they're knocked out
 B_grav = 0.19; //base grav that is consistent through most of the game
 init_grav = 0.1; //grav when you respawn
 
-jump_vel = -5.8;
+
 
 x_accel = 0.92;
 

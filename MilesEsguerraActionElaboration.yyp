@@ -7,6 +7,7 @@
     {"id":{"name":"obj_endmanager","path":"objects/obj_endmanager/obj_endmanager.yy",},"order":18,},
     {"id":{"name":"OBJ_TITLE","path":"objects/OBJ_TITLE/OBJ_TITLE.yy",},"order":11,},
     {"id":{"name":"spr_player1KICK","path":"sprites/spr_player1KICK/spr_player1KICK.yy",},"order":20,},
+    {"id":{"name":"spr_cavebg","path":"sprites/spr_cavebg/spr_cavebg.yy",},"order":30,},
     {"id":{"name":"obj_player1","path":"objects/obj_player1/obj_player1.yy",},"order":4,},
     {"id":{"name":"snd_bgmusic","path":"sounds/snd_bgmusic/snd_bgmusic.yy",},"order":5,},
     {"id":{"name":"snd_bonk","path":"sounds/snd_bonk/snd_bonk.yy",},"order":1,},

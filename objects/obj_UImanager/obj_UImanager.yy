@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_uifiresm_1",
-    "path": "sprites/spr_uifiresm_1/spr_uifiresm_1.yy",
+    "name": "spr_uifiresm_1_1",
+    "path": "sprites/spr_uifiresm_1_1/spr_uifiresm_1_1.yy",
   },
   "solid": false,
   "visible": true,

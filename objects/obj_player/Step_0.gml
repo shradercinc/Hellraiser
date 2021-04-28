@@ -150,6 +150,8 @@ if((y > room_height + 100) && (deathtimer == 0)){
 	obj_manager.pa = false;
 	grav = init_grav;
 	deathtimer += 1;
+	obj_UImanager.r += obj_UImanager.g*0.35; //change hp bar color
+	obj_UImanager.g -= obj_UImanager.g*0.35; //""
 	global.playerlives -= 1;
 	alarm[0] = 2*room_speed
 	knockout = true;

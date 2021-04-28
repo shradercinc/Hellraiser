@@ -1,7 +1,15 @@
 if(ySpeed > 0 and y > other.y and knockout == false)
 {
 	grav = B_grav;
-	ySpeed = jump_vel;   //if collision, jump
+	if(drop_active == false)
+	{
+		ySpeed = jump_vel;   //if collision, jump
+	}
+	if(drop_active == true)
+	{
+		ySpeed = drop_bounce;
+		drop_active = false;
+	}
 	audio_play_sound(snd_cloud, 1, false);
 	other.image_speed = 1;
 	other.bonk = true;

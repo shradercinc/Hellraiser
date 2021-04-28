@@ -5,7 +5,9 @@ depth = -20;
 
 knockout = false; 
 kick_active = false;
+
 drop_active = false;
+drop_bounce = jump_vel * 1.2;
 
 grav = 0.1;
 launch_grav = 0.55;

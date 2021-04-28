@@ -6,6 +6,7 @@
     {"id":{"name":"obj_platform","path":"objects/obj_platform/obj_platform.yy",},"order":1,},
     {"id":{"name":"obj_endmanager","path":"objects/obj_endmanager/obj_endmanager.yy",},"order":18,},
     {"id":{"name":"OBJ_TITLE","path":"objects/OBJ_TITLE/OBJ_TITLE.yy",},"order":11,},
+    {"id":{"name":"Obj_fireball","path":"objects/Obj_fireball/Obj_fireball.yy",},"order":26,},
     {"id":{"name":"spr_player1KICK","path":"sprites/spr_player1KICK/spr_player1KICK.yy",},"order":20,},
     {"id":{"name":"obj_player1","path":"objects/obj_player1/obj_player1.yy",},"order":4,},
     {"id":{"name":"Spr_bat_fireball","path":"sprites/Spr_bat_fireball/Spr_bat_fireball.yy",},"order":3,},

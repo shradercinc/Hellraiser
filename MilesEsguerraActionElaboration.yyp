@@ -8,6 +8,7 @@
     {"id":{"name":"OBJ_TITLE","path":"objects/OBJ_TITLE/OBJ_TITLE.yy",},"order":11,},
     {"id":{"name":"spr_player1KICK","path":"sprites/spr_player1KICK/spr_player1KICK.yy",},"order":20,},
     {"id":{"name":"obj_player1","path":"objects/obj_player1/obj_player1.yy",},"order":4,},
+    {"id":{"name":"Spr_bat_fireball","path":"sprites/Spr_bat_fireball/Spr_bat_fireball.yy",},"order":3,},
     {"id":{"name":"snd_bgmusic","path":"sounds/snd_bgmusic/snd_bgmusic.yy",},"order":5,},
     {"id":{"name":"snd_bonk","path":"sounds/snd_bonk/snd_bonk.yy",},"order":1,},
     {"id":{"name":"obj_slash","path":"objects/obj_slash/obj_slash.yy",},"order":10,},

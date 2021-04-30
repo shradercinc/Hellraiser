@@ -11,5 +11,6 @@ if(start == true){
 }
 
 if(image_alpha == 1){
+	audio_stop_sound(snd_titleambient);
 	room_goto(Room1);	
 }

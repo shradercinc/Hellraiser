@@ -171,9 +171,4 @@ else if (charge > charge_max){ //fully charged
 	obj_UImanager.dashcurrentfire = spr_uifirelg;	
 	obj_UImanager.dashcolorshift = c_aqua;
 } 
-/*
-else if(){ //activated
-	obj_UImanager.dashcurrentfire = spr_uifireextinguished;
-	obj_UImanager.dashcolorshift = c_blue;
-}
-*/
+

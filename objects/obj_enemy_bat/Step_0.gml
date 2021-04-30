@@ -28,7 +28,7 @@ if(death ==  false)
 	//							FIRE CONTROL
 	
 	firet--
-	if(firet < 0 and abs(obj_player.x - x) < 256)
+	if(firet < 0 and abs(obj_player.x - x) < 512 and obj_player.knockout == false)
 	{
 		instance_create_layer(x,y,"Instances",Obj_fireball)
 		firet = firet_max;

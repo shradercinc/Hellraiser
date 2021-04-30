@@ -10,6 +10,7 @@
     {"id":{"name":"spr_player1KICK","path":"sprites/spr_player1KICK/spr_player1KICK.yy",},"order":20,},
     {"id":{"name":"spr_citybg","path":"sprites/spr_citybg/spr_citybg.yy",},"order":27,},
     {"id":{"name":"obj_player1","path":"objects/obj_player1/obj_player1.yy",},"order":4,},
+    {"id":{"name":"spr_flame","path":"sprites/spr_flame/spr_flame.yy",},"order":30,},
     {"id":{"name":"spr_firecity","path":"sprites/spr_firecity/spr_firecity.yy",},"order":28,},
     {"id":{"name":"Spr_bat_fireball","path":"sprites/Spr_bat_fireball/Spr_bat_fireball.yy",},"order":3,},
     {"id":{"name":"snd_bgmusic","path":"sounds/snd_bgmusic/snd_bgmusic.yy",},"order":5,},

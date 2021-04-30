@@ -17,7 +17,7 @@ pound_grav = 0.8; //grav that affects the player when they're knocked out
 B_grav = 0.19; //base grav that is consistent through most of the game
 init_grav = 0.1; //grav when you respawn
 
-
+global.player_active = true;
 
 x_accel = 0.92;
 

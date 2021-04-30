@@ -40,7 +40,7 @@ if(knockout != true){
 		grav = 0;
 		charge = 0;
 		alarm[1] = 0.15*room_speed;
-		alarm[2] = 0.25*room_speed;
+		alarm[2] = 0.32*room_speed;
 	}	
 	//left dash
 	if(keyboard_check_released(ord("A")) and kick_active == false and charge > charge_max)
@@ -57,30 +57,8 @@ if(knockout != true){
 		grav = 0;
 		charge = 0;
 		alarm[1] = 0.15*room_speed;
-		alarm[2] = 0.25*room_speed;
+		alarm[2] = 0.32*room_speed;
 	}
-	
-	
-	
-//	if(keyboard_check_pressed(ord("E")) && kick_active == false)
-//	{
-//		audio_play_sound(snd_kick, 1, false);
-//		if(xSpeed >= 0)
-//		{
-//			image_index = 6;
-//			xSpeed = xSpeed + kick_accel;
-//		}
-//		if(xSpeed < 0)
-//		{
-//			image_index = 6;
-//			xSpeed = xSpeed - kick_accel;		
-//		}
-//		kick_active = true;
-//		ySpeed = 0;
-//		grav = 0;
-//		alarm[1] = 0.15*room_speed;
-//		alarm[2] = 0.25*room_speed;
-//	}
 	
 	
 	if(keyboard_check_pressed(ord("S")) && drop_active == false){

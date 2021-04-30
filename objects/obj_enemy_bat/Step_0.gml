@@ -26,15 +26,23 @@ if(death ==  false)
 	}
 	
 	//							FIRE CONTROL
-	
-	firet--
-	if(firet < 0 and abs(obj_player.x - x) < 512 and obj_player.knockout == false)
+	if(global.player_active = true)
 	{
-		instance_create_layer(x,y,"Instances",Obj_fireball)
-		firet = firet_max;
+		if(obj_player.knockout == false)
+		{
+			firet--
+		}
+		if(obj_player.knockout == true)
+		{
+			firet = firet_max;
+		}
+
+		if(firet < 0 and abs(obj_player.x - x) < 512 and obj_player.knockout == false)
+		{
+			instance_create_layer(x,y,"Instances",Obj_fireball)
+			firet = firet_max;
+		}
 	}
-	
-	
 }
 
 

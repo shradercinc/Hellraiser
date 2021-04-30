@@ -22,7 +22,7 @@ if (knockout == false and other.knockout == false and kick_active = true)
 			drop_active = false;
 		}
 		global.P1points++
-	} else if(knockout == false and invultimer < 0 and other.knockout == false)
+	} else if(knockout == false and invultimer < 0 and other.knockout == false and y > other.y + 32)
 		{
 			grav = pound_grav;
 			instance_create_layer(x, y, "Instances", obj_die);

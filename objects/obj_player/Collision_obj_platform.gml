@@ -8,7 +8,6 @@ if(ySpeed > 0 and y > other.y and knockout == false)
 	if(drop_active == true)
 	{
 		ySpeed = drop_bounce;
-		drop_active = false;
 	}
 	audio_play_sound(snd_cloud, 1, false);
 	other.image_speed = 1;

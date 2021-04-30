@@ -2,6 +2,7 @@ global.P1points = 0;
 global.P2points = 0;
 global.playerlives = 5;
 
+global.player_active = false;
 
 pa = false;
 //checks the camera height and width and stores them

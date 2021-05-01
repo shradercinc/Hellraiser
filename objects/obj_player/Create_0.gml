@@ -43,7 +43,9 @@ timer_d_m = 0.085 * room_speed;
 charge_max = 2.5*room_speed;
 charge = charge_max;
 
-
+//pound timer
+poundcharge_max = 1.5*room_speed;
+poundcharge = poundcharge_max;
 
 
 

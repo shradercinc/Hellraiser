@@ -23,6 +23,7 @@ if(knockout != true){
 	
 	
 	charge++
+	poundcharge++
 	timer_dl--
 	timer_dr--
 	//right dash
@@ -66,6 +67,7 @@ if(knockout != true){
 		xSpeed = 0;
 		ySpeed = 3;
 		grav = pound_grav;
+		poundcharge = 0;
 		drop_active = true;
 		alarm[3] = 0.8*room_speed;
 		}
@@ -172,3 +174,16 @@ else if (charge > charge_max){ //fully charged
 	obj_UImanager.dashcolorshift = c_aqua;
 } 
 
+//pound charge flames
+if(poundcharge < poundcharge_max/2){  //first half of charge
+	obj_UImanager.poundcurrentfire = spr_uifiresm;
+	obj_UImanager.poundcolorshift = c_red;
+}
+else if(poundcharge < poundcharge_max){ //second half of charge
+	obj_UImanager.poundcurrentfire = spr_uifiremid;
+	obj_UImanager.poundcolorshift = c_yellow;
+} 
+else if (poundcharge > poundcharge_max){ //fully poundcharged
+	obj_UImanager.poundcurrentfire = spr_uifirelg;	
+	obj_UImanager.poundcolorshift = c_aqua;
+} 

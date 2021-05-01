@@ -30,7 +30,7 @@ for(var i = 0; i < abs(spawnvel); i++)
 
 		if(collision_with_slash == true){
 		knockout = true;
-		instance_create_layer(x, y, "Instances", obj_die);
+		part_particles_create(global.killparts, x, y, global.enemyblood, 10);
 		audio_play_sound(snd_ouch, 1, false);
 		global.P1points++;
 		grav = knockoutgrav;

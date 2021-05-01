@@ -40,6 +40,7 @@
     {"id":{"name":"obj_UImanager","path":"objects/obj_UImanager/obj_UImanager.yy",},"order":25,},
     {"id":{"name":"snd_woosh","path":"sounds/snd_woosh/snd_woosh.yy",},"order":0,},
     {"id":{"name":"spr_platform2gone","path":"sprites/spr_platform2gone/spr_platform2gone.yy",},"order":13,},
+    {"id":{"name":"obj_particlecreatemanager","path":"objects/obj_particlecreatemanager/obj_particlecreatemanager.yy",},"order":28,},
     {"id":{"name":"snd_kick","path":"sounds/snd_kick/snd_kick.yy",},"order":6,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":2,},
     {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},"order":0,},

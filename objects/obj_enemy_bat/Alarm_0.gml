@@ -1,2 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description screenshake timer
+
+global.shake = false; 

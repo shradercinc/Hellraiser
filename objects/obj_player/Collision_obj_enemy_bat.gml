@@ -1,2 +1,19 @@
-/// @description Insert description here
-// You can write your code in this editor
+if (knockout == false and y < other.y and ySpeed > 0 and other.death == false)
+{
+	part_particles_create(global.killparts, x, y, global.enemyblood, 10);
+	audio_play_sound(snd_ouch, 1, false)
+	other.death = true;
+	global.shake = true;
+	alarm[4] = 0.1*room_speed;
+	grav = B_grav
+	if(drop_active == false)
+	{
+		ySpeed = jump_vel;   //if collision, jump
+	}
+	if(drop_active == true)
+	{
+		ySpeed = drop_bounce;
+		drop_active = false;
+	}
+	global.P1points++
+}

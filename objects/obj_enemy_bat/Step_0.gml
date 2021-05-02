@@ -45,5 +45,16 @@ if(death ==  false)
 	}
 }
 
+if(death == true)
+{
+	image_angle = 180;
+	ySpeed += pound_grav;
+	y += ySpeed;
+	if(y > room_height + 128)
+	{
+		instance_destroy(self);
+	}
+}
+
 
 

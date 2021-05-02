@@ -148,6 +148,8 @@ if((y > room_height + 100) && (deathtimer == 0)){
 	global.playerlives -= 1;
 	alarm[0] = 2*room_speed
 	knockout = true;
+	global.shake = true;
+	alarm[4] = 0.1*room_speed;
 	//instance_create_layer(x, room_height, "Instances", obj_die);
 	audio_play_sound(snd_bonk, 1, false);
 	part_particles_create(global.deathparts, x, room_height, global.blood, 40)

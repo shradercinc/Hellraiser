@@ -19,6 +19,7 @@ init_grav = 0.1; //grav when you respawn
 
 global.player_active = true;
 
+
 x_accel = 0.92;
 
 //horizontal drag and its variations

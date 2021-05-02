@@ -3,6 +3,7 @@ global.P2points = 0;
 global.playerlives = 5;
 
 global.player_active = false;
+global.shake = false;
 
 	audio_play_sound(snd_bgmusic, 1, true);
 

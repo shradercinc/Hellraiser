@@ -44,8 +44,8 @@ if(knockout != true){
 		alarm[2] = 0.32*room_speed;
 		
 		//summon the particles.
-		part_type_direction(global.sparks, 120, 240, 0, 0);
-		part_particles_create(global.skillparts,  obj_player.x, obj_player.y, global.sparks, 10);
+		part_type_direction(global.sparks, 180, 240, 0, 0);
+		part_particles_create(global.skillparts,  obj_player.x, obj_player.y, global.sparks, 20);
 	}	
 	//left dash
 	if(keyboard_check_released(ord("A")) and kick_active == false and charge > charge_max)
@@ -66,7 +66,7 @@ if(knockout != true){
 		
 		//summon the particles.
 		part_type_direction(global.sparks, 330, 390, 0, 0);
-		part_particles_create(global.skillparts, obj_player.x, obj_player.y, global.sparks, 5);
+		part_particles_create(global.skillparts, obj_player.x, obj_player.y, global.sparks, 20);
 		
 	}
 	
@@ -82,7 +82,7 @@ if(knockout != true){
 		
 		//summon the particles.
 		part_type_direction(global.sparks, 30, 120, 0, 0);
-		part_particles_create(global.skillparts,  obj_player.x, obj_player.y, global.sparks, 5);
+		part_particles_create(global.skillparts,  obj_player.x, obj_player.y, global.sparks, 20);
 		}
 	
 	if(keyboard_check_pressed(vk_space)){

@@ -31,4 +31,7 @@ randomize();
 
 alarm[0] = 1 * room_speed;
 alarm[1] = 2 * room_speed;
-alarm[2] = 1.1*room_speed;
+alarm[2] = 1.1 * room_speed;
+alarm[3] = 1.1 * room_speed;
+
+Batno = 0;

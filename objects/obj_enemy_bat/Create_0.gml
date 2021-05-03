@@ -12,3 +12,5 @@ idle = false;
 firet_max = 3 * room_speed
 firet = firet_max;
 
+pound_grav = 1.12;
+ySpeed = 0;

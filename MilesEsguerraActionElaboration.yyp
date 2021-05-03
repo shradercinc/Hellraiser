@@ -33,7 +33,6 @@
     {"id":{"name":"spr_player2LEFT","path":"sprites/spr_player2LEFT/spr_player2LEFT.yy",},"order":3,},
     {"id":{"name":"obj_fadeouttitle","path":"objects/obj_fadeouttitle/obj_fadeouttitle.yy",},"order":15,},
     {"id":{"name":"obj_insttext","path":"objects/obj_insttext/obj_insttext.yy",},"order":27,},
-    {"id":{"name":"obj_dummy2","path":"objects/obj_dummy2/obj_dummy2.yy",},"order":21,},
     {"id":{"name":"spr_uifiresm","path":"sprites/spr_uifiresm/spr_uifiresm.yy",},"order":4,},
     {"id":{"name":"snd_wall","path":"sounds/snd_wall/snd_wall.yy",},"order":3,},
     {"id":{"name":"spr_platform3gone","path":"sprites/spr_platform3gone/spr_platform3gone.yy",},"order":14,},

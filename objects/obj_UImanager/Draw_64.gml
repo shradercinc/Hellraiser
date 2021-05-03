@@ -2,7 +2,6 @@
 // You can write your code in this editor
 hpcolorshift = make_color_rgb(r, g, b);
 
-draw_set_font(fnt_score);
 
 p1score = global.P1points;
 p1health = global.playerlives;
@@ -16,7 +15,13 @@ draw_rectangle_color(50, 55, 590, 80, c_ltgray, c_ltgray, c_ltgray, c_ltgray, fa
 draw_sprite_ext(spr_uihp, 0, healthbar_x , healthbar_y, (p1health/p1maxhealth) * healthbar_width, 1, 0, hpcolorshift, 1); //blue bar
 draw_sprite_ext(spr_uihpbar, 1, 30, 50, 5.5, 5.5, 0, c_white, 1); //top visual
 
-
+//draw kill counter 
+	draw_set_font(fnt_verminvibes);
+	draw_set_halign(fa_left);
+	draw_sprite_ext(spr_uikillcounter, 0, healthbar_x + 15, healthbar_y + 85, 5.5, 5.5, 0, c_black, 0.4);
+	draw_sprite_ext(spr_uikillcounter, 0, healthbar_x + 10, healthbar_y + 80, 5.5, 5.5, 0, c_white, 1);
+	draw_text_transformed_color(healthbar_x + 65, healthbar_y + 75, "X " + string(p1score), 2.5, 2.5, 0, c_black, c_black, c_black, c_black, 0.4);
+	draw_text_transformed_color(healthbar_x + 60, healthbar_y + 70, "X " + string(p1score), 2.5, 2.5, 0, c_white, c_white, c_white, c_white, 1);
 
 //shadows underneath skills
 	draw_sprite_ext(spr_uidash, 1, uidashslot_x + 10, ui_y +10, 4.5, 4.5, 0, c_black, 0.4);

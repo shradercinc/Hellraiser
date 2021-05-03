@@ -12,7 +12,7 @@
 	part_type_speed(global.sparks, 10, 15, 0.10, 0);
 	part_type_direction(global.sparks, 330, 390, 0, 0);
 	part_type_color2(global.sparks, c_silver, c_cyan);
-	part_type_life(global.sparks, 15, 20);
+	part_type_life(global.sparks, 10, 20);
 	
 	
 //death particles

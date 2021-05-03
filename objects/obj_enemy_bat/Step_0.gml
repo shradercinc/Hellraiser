@@ -53,6 +53,7 @@ if(death == true)
 	if(y > room_height + 128)
 	{
 		instance_destroy(self);
+		obj_manager.Batno--;
 	}
 }
 

@@ -1,7 +1,8 @@
 /// @description Enemy bat spawn
+randomise();
 if(Batno < 2)
 {
-	instance_create_layer(room_width/2, room_height + 128, "Instances", obj_enemy_bat);
+	instance_create_layer(room_width/2, room_height + 128, "Enemies", obj_enemy_bat);
 	Batno++;
 }
 

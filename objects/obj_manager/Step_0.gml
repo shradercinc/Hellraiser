@@ -1,3 +1,8 @@
+if(keyboard_check_pressed(vk_enter))
+{
+	global.P1points++;
+}
+
 if(pa == true)
 {
 	targety = obj_player.y;
@@ -34,17 +39,22 @@ if(cam0_x < 0) //holds the camera within the left side of the screen
 
 
 
-if(global.shake == true){
+if(global.shake == true)
+{
 	camera_set_view_pos(view_camera[0], cam0_x + irandom_range(-15, 15), cam0_y + irandom_range(-15, 15));
 } 
-else {
-	camera_set_view_pos(view_camera[0], cam0_x, cam0_y);	
-}
+	else 
+	{
+		camera_set_view_pos(view_camera[0], cam0_x, cam0_y);	
+	}
 
 
 
 //dead state for now 
-if(global.playerlives == 0){
+if(global.playerlives == 0)
+{
 	room_goto(dead);	
 }
+
+
 

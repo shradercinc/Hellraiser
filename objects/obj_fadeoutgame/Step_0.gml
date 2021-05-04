@@ -5,7 +5,7 @@ if(global.playerlives == 0)
 {
 	gameover = true;	
 }
-if(global.P1points == 12)
+if(global.P1points == wincon)
 {
 	win = true;
 }
@@ -23,7 +23,7 @@ if(image_alpha == 1)
 	}
 	if(win == true)
 	{
-		room_goto(Room2);
+		room_goto(cutscene1);
 	}
 	
 }

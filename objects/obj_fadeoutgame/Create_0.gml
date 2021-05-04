@@ -3,3 +3,5 @@
  image_alpha = 0;
  gameover = false;
  win = false;
+ 
+ wincon = 12;

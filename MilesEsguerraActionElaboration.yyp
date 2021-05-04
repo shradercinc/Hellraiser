@@ -67,6 +67,7 @@
     {"id":{"name":"obj_cloudgone","path":"objects/obj_cloudgone/obj_cloudgone.yy",},"order":6,},
     {"id":{"name":"spr_gameover","path":"sprites/spr_gameover/spr_gameover.yy",},"order":23,},
     {"id":{"name":"spr_die","path":"sprites/spr_die/spr_die.yy",},"order":5,},
+    {"id":{"name":"Obj_cutscene1_manager","path":"objects/Obj_cutscene1_manager/Obj_cutscene1_manager.yy",},"order":30,},
     {"id":{"name":"obj_fadeoutgame","path":"objects/obj_fadeoutgame/obj_fadeoutgame.yy",},"order":17,},
     {"id":{"name":"spr_bg","path":"sprites/spr_bg/spr_bg.yy",},"order":9,},
     {"id":{"name":"snd_instambient","path":"sounds/snd_instambient/snd_instambient.yy",},"order":11,},

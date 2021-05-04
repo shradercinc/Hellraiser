@@ -19,7 +19,6 @@
     {"id":{"name":"obj_slash","path":"objects/obj_slash/obj_slash.yy",},"order":10,},
     {"id":{"name":"spr_uihpbar","path":"sprites/spr_uihpbar/spr_uihpbar.yy",},"order":7,},
     {"id":{"name":"spr_uifiresm_1_1","path":"sprites/spr_uifiresm_1_1/spr_uifiresm_1_1.yy",},"order":10,},
-    {"id":{"name":"obj_objectivetext","path":"objects/obj_objectivetext/obj_objectivetext.yy",},"order":30,},
     {"id":{"name":"spr_uidash","path":"sprites/spr_uidash/spr_uidash.yy",},"order":0,},
     {"id":{"name":"spr_uislash","path":"sprites/spr_uislash/spr_uislash.yy",},"order":2,},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":4,},
@@ -29,6 +28,7 @@
     {"id":{"name":"spr_uifiremid","path":"sprites/spr_uifiremid/spr_uifiremid.yy",},"order":5,},
     {"id":{"name":"spr_uihp","path":"sprites/spr_uihp/spr_uihp.yy",},"order":9,},
     {"id":{"name":"Spr_Enemy_2","path":"sprites/Spr_Enemy_2/Spr_Enemy_2.yy",},"order":1,},
+    {"id":{"name":"cutscene1","path":"rooms/cutscene1/cutscene1.yy",},"order":5,},
     {"id":{"name":"obj_manager","path":"objects/obj_manager/obj_manager.yy",},"order":0,},
     {"id":{"name":"spr_SLASH","path":"sprites/spr_SLASH/spr_SLASH.yy",},"order":17,},
     {"id":{"name":"spr_player2LEFT","path":"sprites/spr_player2LEFT/spr_player2LEFT.yy",},"order":3,},
@@ -123,6 +123,7 @@
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"dead","path":"rooms/dead/dead.yy",},},
     {"roomId":{"name":"instructions","path":"rooms/instructions/instructions.yy",},},
+    {"roomId":{"name":"cutscene1","path":"rooms/cutscene1/cutscene1.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":0,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

@@ -4,16 +4,16 @@
 timer += 1;
 
 if(timer < 50){
-	image_alpha = 1;	
+	text_alpha = 1;	
 }
 
 if(timer > 50){
-	image_alpha = 0;	
+	text_alpha = 0;	
 }
 
 if(timer == 100){
 	timer = 0;	
-	image_alpha = 1;
+	text_alpha = 1;
 }
 
 

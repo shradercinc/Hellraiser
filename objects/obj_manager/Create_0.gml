@@ -4,6 +4,8 @@ global.playerlives = 5;
 global.player_active = false;
 global.shake = false;
 
+
+
 audio_play_sound(snd_bgmusic, 1, true);
 
 
@@ -32,3 +34,4 @@ alarm[2] = 1.1 * room_speed;
 alarm[3] = 1.1 * room_speed;
 
 Batno = 0;
+

@@ -42,6 +42,7 @@ if(knockout != true){
 		charge = 0;
 		alarm[1] = 0.15*room_speed;
 		alarm[2] = 0.32*room_speed;
+		global.skilldash_state = 1;
 		
 		//summon the particles.
 		part_type_direction(global.sparks, 180, 240, 0, 0);
@@ -63,6 +64,7 @@ if(knockout != true){
 		charge = 0;
 		alarm[1] = 0.15*room_speed;
 		alarm[2] = 0.32*room_speed;
+		global.skilldash_state = 1;
 		
 		//summon the particles.
 		part_type_direction(global.sparks, 330, 390, 0, 0);
@@ -79,6 +81,7 @@ if(knockout != true){
 		poundcharge = 0;
 		drop_active = true;
 		alarm[3] = 0.8*room_speed;
+		global.skillpound_state = 1;
 		
 		//summon the particles.
 		part_type_direction(global.sparks, 30, 120, 0, 0);

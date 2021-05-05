@@ -24,6 +24,17 @@ r = 0;
 g = 255;
 b = 255;
 
+scalekill = 5.5;
+scalekill_max = 6.5
+scalekill_state = 0;
 
+scaleskill_dash = 4.5;
+scaleskill_pound = 4.5;
+scaleskill_max = 6;
+scaleskill_dash_state = 0;
+scaleskill_pound_state = 0;
 
-
+global.damage_state = 0;
+global.score_state = 0;
+global.skilldash_state = 0;
+global.skillpound_state = 0;

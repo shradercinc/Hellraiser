@@ -7,6 +7,8 @@ if (knockout == false and other.knockout == false and kick_active = true)
 	global.shake = true;
 	alarm[4] = 0.1*room_speed;
 	global.P1points++
+	global.score_state = 1;
+	
 } else if (knockout == false and y < other.y + 32 and ySpeed > 0 and other.knockout == false)
 	{
 		part_particles_create(global.killparts, x, y, global.enemyblood, 10);
@@ -26,6 +28,8 @@ if (knockout == false and other.knockout == false and kick_active = true)
 			drop_active = false;
 		}
 		global.P1points++
+		global.score_state = 1;
+		
 	} else if(knockout == false and invultimer < 0 and other.knockout == false and y > other.y + 32)
 		{
 			grav = pound_grav;

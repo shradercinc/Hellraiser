@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"spr_cerbRIGHT","path":"sprites/spr_cerbRIGHT/spr_cerbRIGHT.yy",},"order":6,},
     {"id":{"name":"obj_fadeintitle","path":"objects/obj_fadeintitle/obj_fadeintitle.yy",},"order":16,},
     {"id":{"name":"spr_platform4gone","path":"sprites/spr_platform4gone/spr_platform4gone.yy",},"order":15,},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"order":13,},
@@ -23,7 +24,9 @@
     {"id":{"name":"spr_uifiresm_1_1","path":"sprites/spr_uifiresm_1_1/spr_uifiresm_1_1.yy",},"order":10,},
     {"id":{"name":"spr_uidash","path":"sprites/spr_uidash/spr_uidash.yy",},"order":0,},
     {"id":{"name":"spr_uislash","path":"sprites/spr_uislash/spr_uislash.yy",},"order":2,},
+    {"id":{"name":"spr_cerbMID","path":"sprites/spr_cerbMID/spr_cerbMID.yy",},"order":4,},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":4,},
+    {"id":{"name":"spr_cerbLEFT","path":"sprites/spr_cerbLEFT/spr_cerbLEFT.yy",},"order":5,},
     {"id":{"name":"spr_flame2","path":"sprites/spr_flame2/spr_flame2.yy",},"order":32,},
     {"id":{"name":"spr_cutscene2","path":"sprites/spr_cutscene2/spr_cutscene2.yy",},"order":35,},
     {"id":{"name":"spr_platform4","path":"sprites/spr_platform4/spr_platform4.yy",},"order":0,},

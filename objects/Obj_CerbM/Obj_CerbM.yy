@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_cerbMID",
+    "path": "sprites/spr_cerbMID/spr_cerbMID.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

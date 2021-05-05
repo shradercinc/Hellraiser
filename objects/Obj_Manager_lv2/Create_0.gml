@@ -1,10 +1,10 @@
-global.P1points = 0;
 global.playerlives = 5;
 
 global.player_active = false;
 global.shake = false;
 
 pa = false;
+camera_set_view_pos(view_camera[0], room_width/2, room_height / 3)
 //checks the camera height and width and stores them
 cam0_h = camera_get_view_height(view_camera[0]) / 2;
 cam0_w = camera_get_view_width(view_camera[0]) / 2;

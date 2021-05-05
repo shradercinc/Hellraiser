@@ -1,7 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
 objectivetimer += 0;
 
 if(objective_y != y){

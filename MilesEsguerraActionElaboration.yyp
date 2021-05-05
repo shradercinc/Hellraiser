@@ -79,6 +79,7 @@
     {"id":{"name":"spr_bg","path":"sprites/spr_bg/spr_bg.yy",},"order":9,},
     {"id":{"name":"snd_instambient","path":"sounds/snd_instambient/snd_instambient.yy",},"order":11,},
     {"id":{"name":"spr_player1LEFT","path":"sprites/spr_player1LEFT/spr_player1LEFT.yy",},"order":4,},
+    {"id":{"name":"obj_objectivetext","path":"objects/obj_objectivetext/obj_objectivetext.yy",},"order":34,},
     {"id":{"name":"snd_titleambient","path":"sounds/snd_titleambient/snd_titleambient.yy",},"order":10,},
     {"id":{"name":"spr_player1RIGHT","path":"sprites/spr_player1RIGHT/spr_player1RIGHT.yy",},"order":1,},
     {"id":{"name":"spr_enemy","path":"sprites/spr_enemy/spr_enemy.yy",},"order":24,},

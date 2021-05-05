@@ -4,7 +4,7 @@ if (knockout == false and other.knockout == false and kick_active = true)
 	audio_play_sound(snd_ouch, 1, false)
 	
 	speedtimer = 0;
-	room_speed = 37.5;
+	room_speed = 40.5;
 	
 	other.knockout = true;
 	other.grav = other.knockoutgrav;
@@ -19,7 +19,7 @@ if (knockout == false and other.knockout == false and kick_active = true)
 		audio_play_sound(snd_ouch, 1, false)
 		
 		speedtimer = 0;
-		room_speed = 37.5;
+		room_speed = 40.5;
 		
 		other.knockout = true;
 		other.grav = other.knockoutgrav;

@@ -1,5 +1,5 @@
 speedtimer++; //timer for slo mo
-if(speedtimer > 15){
+if(speedtimer > 5){
 	room_speed = defaultspeed;
 }
 invultimer--; //timer that affects how soon you can die when you respawn

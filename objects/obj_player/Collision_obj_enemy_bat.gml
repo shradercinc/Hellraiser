@@ -4,7 +4,7 @@ if (knockout == false and y < other.y and ySpeed > 0 and other.death == false)
 	audio_play_sound(snd_ouch, 1, false)
 	
 	speedtimer = 0;
-	room_speed = 37.5;
+	room_speed = 40.5;
 	
 	other.death = true;
 	global.shake = true;
@@ -28,7 +28,7 @@ if (knockout == false and y < other.y and ySpeed > 0 and other.death == false)
 		audio_play_sound(snd_ouch, 1, false)
 		
 		speedtimer = 0;
-		room_speed = 37.5;
+		room_speed = 40.5;
 		
 		other.death = true;
 		global.shake = true;

@@ -13,11 +13,11 @@ if(death == false and active = true)
 		//idle bobbing animation, made smooth by the duel lerp value
 		if(abs(targety - y) < 23)
 		{
-			y = lerp(y, targety, 0.08);
+			y = lerp(y, targety, ylerp);
 		}
 		if(abs(targety - y) > 23)
 		{
-			y = lerp(y, targety, 0.04);
+			y = lerp(y, targety, ylerp/2);
 		}
 
 		//continued bobbing anim, determining the distance they have to bob and whether they reach the top of their bob
@@ -39,11 +39,11 @@ if(death == false and active = true)
 		{
 			if(abs(targetx - x) < 15)
 			{
-				x = lerp(x, targetx, 0.04);
+				x = lerp(x, targetx, xlerp);
 			}
 			if(abs(targetx - x) > 15)
 			{
-				x = lerp(x, targetx, 0.02);
+				x = lerp(x, targetx, xlerp/2);
 			}
 			
 			if(bobleft == true and abs(targetx - x) < 5)

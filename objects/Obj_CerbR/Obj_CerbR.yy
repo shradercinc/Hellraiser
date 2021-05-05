@@ -8,8 +8,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "Obj_CerbM",
-    "path": "objects/Obj_CerbM/Obj_CerbM.yy",
+    "name": "Obj_Cerb_Parent",
+    "path": "objects/Obj_Cerb_Parent/Obj_Cerb_Parent.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,

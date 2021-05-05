@@ -14,7 +14,12 @@ for(var i = 0; i < max_plat; i++)
 		with(new_platform)
 		{
 			var attempts = 0;
-			while(collision_rectangle(x, y, x+150, y+48, obj_platform, false, true) != noone or collision_rectangle(x, y, x+150, y+48, obj_permaplatform, false, true) && attempts < 9999)
+			while(collision_rectangle(x, y, x+150, y+48, obj_platform, false, true)   != noone
+			or collision_rectangle(x, y, x+150, y+48, obj_permaplatform, false, true) != noone 
+			or collision_rectangle(x, y, x+150, y+48, Obj_CerbL, false, true)         != noone
+			or collision_rectangle(x, y, x+150, y+48, Obj_CerbM, false, true)         != noone
+			or collision_rectangle(x, y, x+150, y+48, Obj_CerbR, false, true)		  != noone
+			and attempts < 9999)
 			{
 				x = random_range(0, room_width - sprite_width);
 				attempts += 1;

@@ -7,6 +7,7 @@ randomize();
 	invultimer = invultimerM;
 	obj_manager.pa = true;
 	charge = charge_max;
+	poundcharge = poundcharge_max;
 	
 	obj_player.deathtimer =  0;
 	audio_play_sound(snd_woosh, 1, false);

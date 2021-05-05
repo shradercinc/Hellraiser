@@ -2,6 +2,10 @@ if (knockout == false and other.knockout == false and kick_active = true)
 {
 	part_particles_create(global.killparts, x, y, global.enemyblood, 10);
 	audio_play_sound(snd_ouch, 1, false)
+	
+	speedtimer = 0;
+	room_speed = 37.5;
+	
 	other.knockout = true;
 	other.grav = other.knockoutgrav;
 	global.shake = true;
@@ -13,6 +17,10 @@ if (knockout == false and other.knockout == false and kick_active = true)
 	{
 		part_particles_create(global.killparts, x, y, global.enemyblood, 10);
 		audio_play_sound(snd_ouch, 1, false)
+		
+		speedtimer = 0;
+		room_speed = 37.5;
+		
 		other.knockout = true;
 		other.grav = other.knockoutgrav;
 		global.shake = true;

@@ -48,7 +48,8 @@ charge = charge_max;
 poundcharge_max = 1.5*room_speed;
 poundcharge = poundcharge_max;
 
-
+speedtimer = 0;
+defaultspeed = room_speed;
 
 
 

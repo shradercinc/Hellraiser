@@ -2,6 +2,10 @@ if (knockout == false and y < other.y and ySpeed > 0 and other.death == false)
 {
 	part_particles_create(global.killparts, x, y, global.enemyblood, 10);
 	audio_play_sound(snd_ouch, 1, false)
+	
+	speedtimer = 0;
+	room_speed = 37.5;
+	
 	other.death = true;
 	global.shake = true;
 	alarm[4] = 0.1*room_speed;
@@ -22,6 +26,10 @@ if (knockout == false and y < other.y and ySpeed > 0 and other.death == false)
 	{
 		part_particles_create(global.killparts, x, y, global.enemyblood, 10);
 		audio_play_sound(snd_ouch, 1, false)
+		
+		speedtimer = 0;
+		room_speed = 37.5;
+		
 		other.death = true;
 		global.shake = true;
 		alarm[4] = 0.1*room_speed;

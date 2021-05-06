@@ -70,7 +70,7 @@
     {"id":{"name":"spr_cutscene2","path":"sprites/spr_cutscene2/spr_cutscene2.yy",},"order":35,},
     {"id":{"name":"spr_kick","path":"sprites/spr_kick/spr_kick.yy",},"order":16,},
     {"id":{"name":"spr_title","path":"sprites/spr_title/spr_title.yy",},"order":18,},
-    {"id":{"name":"obj_musicstarter","path":"objects/obj_musicstarter/obj_musicstarter.yy",},"order":35,},
+    {"id":{"name":"obj_level1setup","path":"objects/obj_level1setup/obj_level1setup.yy",},"order":35,},
     {"id":{"name":"spr_titlebg","path":"sprites/spr_titlebg/spr_titlebg.yy",},"order":29,},
     {"id":{"name":"spr_uikillcounter","path":"sprites/spr_uikillcounter/spr_uikillcounter.yy",},"order":3,},
     {"id":{"name":"obj_die","path":"objects/obj_die/obj_die.yy",},"order":5,},

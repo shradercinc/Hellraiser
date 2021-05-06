@@ -27,7 +27,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_musicstarter",
+  "name": "obj_level1setup",
   "tags": [],
   "resourceType": "GMObject",
 }

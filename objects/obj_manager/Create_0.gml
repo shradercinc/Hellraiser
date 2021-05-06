@@ -1,4 +1,4 @@
-global.P1points = 0;
+
 global.playerlives = 5;
 
 global.player_active = false;

@@ -72,6 +72,7 @@
     {"id":{"name":"obj_die","path":"objects/obj_die/obj_die.yy",},"order":5,},
     {"id":{"name":"Obj_enemy_bear","path":"objects/Obj_enemy_bear/Obj_enemy_bear.yy",},"order":32,},
     {"id":{"name":"snd_slash","path":"sounds/snd_slash/snd_slash.yy",},"order":7,},
+    {"id":{"name":"spr_backgrounddead","path":"sprites/spr_backgrounddead/spr_backgrounddead.yy",},"order":34,},
     {"id":{"name":"spr_platform1gone","path":"sprites/spr_platform1gone/spr_platform1gone.yy",},"order":12,},
     {"id":{"name":"obj_cloudgone","path":"objects/obj_cloudgone/obj_cloudgone.yy",},"order":6,},
     {"id":{"name":"spr_gameover","path":"sprites/spr_gameover/spr_gameover.yy",},"order":23,},

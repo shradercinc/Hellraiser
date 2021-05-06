@@ -49,7 +49,7 @@ if(knockout != true){
 		
 		//summon the particles.
 		part_type_direction(global.sparks, 180, 240, 0, 0);
-		part_particles_create(global.skillparts,  obj_player.x, obj_player.y, global.sparks, 20);
+		part_particles_create(global.skillparts,  obj_player.x, obj_player.y, global.sparks, 30);
 	}	
 	//left dash
 	if(keyboard_check_released(ord("A")) and kick_active == false and charge > charge_max)
@@ -71,7 +71,7 @@ if(knockout != true){
 		
 		//summon the particles.
 		part_type_direction(global.sparks, 330, 390, 0, 0);
-		part_particles_create(global.skillparts, obj_player.x, obj_player.y, global.sparks, 20);
+		part_particles_create(global.skillparts, obj_player.x, obj_player.y, global.sparks, 30);
 		
 	}
 	
@@ -88,7 +88,7 @@ if(knockout != true){
 		
 		//summon the particles.
 		part_type_direction(global.sparks, 30, 120, 0, 0);
-		part_particles_create(global.skillparts,  obj_player.x, obj_player.y, global.sparks, 20);
+		part_particles_create(global.skillparts,  obj_player.x, obj_player.y, global.sparks, 30);
 		}
 	
 	if(keyboard_check_pressed(vk_space)){
@@ -158,7 +158,7 @@ if((y > room_height + 100) && (deathtimer == 0)){
 	alarm[4] = 0.1*room_speed;
 	//instance_create_layer(x, room_height, "Instances", obj_die);
 	audio_play_sound(snd_bonk, 1, false);
-	part_particles_create(global.deathparts, x, room_height, global.blood, 40)
+	part_particles_create(global.deathparts, x, room_height, global.blood, 100)
 }
 
 

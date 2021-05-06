@@ -1,6 +1,6 @@
 if (knockout == false and y < other.y and ySpeed > 0 and other.death == false)
 {
-	part_particles_create(global.killparts, x, y, global.enemyblood, 10);
+	part_particles_create(global.killparts, x, y, global.enemyblood, 35);
 	audio_play_sound(snd_ouch, 1, false)
 	
 	speedtimer = 0;
@@ -24,7 +24,7 @@ if (knockout == false and y < other.y and ySpeed > 0 and other.death == false)
 	
 } else if(knockout == false and other.death == false and kick_active = true)
 	{
-		part_particles_create(global.killparts, x, y, global.enemyblood, 10);
+		part_particles_create(global.killparts, x, y, global.enemyblood, 35);
 		audio_play_sound(snd_ouch, 1, false)
 		
 		speedtimer = 0;

@@ -34,6 +34,7 @@ for(var i = 0; i < abs(spawnvel); i++)
 		part_particles_create(global.killparts, x, y, global.enemyblood, 10);
 		audio_play_sound(snd_ouch, 1, false);
 		global.shake = true;
+		global.score_state = 1;
 		alarm[4] = 0.1*room_speed;
 		
 		room_speed = 40.5;

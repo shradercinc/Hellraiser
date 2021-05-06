@@ -1,3 +1,4 @@
+
 spawnvel += grav;
 if(spawnvel > 4 and knockout = false)
 {
@@ -34,6 +35,9 @@ for(var i = 0; i < abs(spawnvel); i++)
 		audio_play_sound(snd_ouch, 1, false);
 		global.shake = true;
 		alarm[4] = 0.1*room_speed;
+		
+		room_speed = 40.5;
+		
 		global.P1points++;
 		grav = knockoutgrav;
 	break;

@@ -11,3 +11,4 @@ knockout = false;
 
 
 
+defaultspeed = room_speed;

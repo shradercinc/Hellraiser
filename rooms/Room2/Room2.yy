@@ -24,6 +24,9 @@
         {"properties":[],"isDnd":false,"objectId":{"name":"Obj_Manager_lv2","path":"objects/Obj_Manager_lv2/Obj_Manager_lv2.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-288.0,"y":192.0,"resourceVersion":"1.0","name":"inst_573DA877","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_UImanager","path":"objects/obj_UImanager/obj_UImanager.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-288.0,"y":256.0,"resourceVersion":"1.0","name":"inst_1C2880C2","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"obj_particlecreatemanager","path":"objects/obj_particlecreatemanager/obj_particlecreatemanager.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":-288.0,"y":320.0,"resourceVersion":"1.0","name":"inst_7BFAF38C","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[
+            {"propertyId":{"name":"enemyrequirement","path":"objects/obj_objectivetext/obj_objectivetext.yy",},"objectId":{"name":"obj_objectivetext","path":"objects/obj_objectivetext/obj_objectivetext.yy",},"value":"CERBERUS.","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+          ],"isDnd":false,"objectId":{"name":"obj_objectivetext","path":"objects/obj_objectivetext/obj_objectivetext.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2176.0,"y":608.0,"resourceVersion":"1.0","name":"inst_6C4E887B","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"spriteId":{"name":"spr_firecity","path":"sprites/spr_firecity/spr_firecity.yy",},"colour":4294967295,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":true,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Background","tags":[],"resourceType":"GMRBackgroundLayer",},
   ],
@@ -38,6 +41,7 @@
     {"name":"inst_70680D79","path":"rooms/Room2/Room2.yy",},
     {"name":"inst_4FAD20DA","path":"rooms/Room2/Room2.yy",},
     {"name":"inst_5E6B661E","path":"rooms/Room2/Room2.yy",},
+    {"name":"inst_6C4E887B","path":"rooms/Room2/Room2.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

@@ -23,7 +23,7 @@ if(image_alpha == 1)
 	}
 	if(win == true)
 	{
-		room_goto(cutscene1);
+		room_goto_next();
 	}
 	
 }

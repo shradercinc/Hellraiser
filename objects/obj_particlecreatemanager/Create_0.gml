@@ -24,7 +24,7 @@ global.blood = part_type_create();
 	part_type_speed(global.blood, 8, 10, 0.1, 1);
 	part_type_direction(global.blood, 0, 360, 0, 0);
 	part_type_color2(global.blood, c_maroon, c_orange);
-	part_type_life(global.blood, 5, 25);
+	part_type_life(global.blood, 20, 35);
 
 
 //enemy kill parts

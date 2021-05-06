@@ -6,7 +6,7 @@ global.shake = false;
 
 
 
-audio_play_sound(snd_bgmusic, 1, true);
+
 
 
 pa = false;

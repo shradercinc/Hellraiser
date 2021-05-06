@@ -31,7 +31,7 @@ for(var i = 0; i < abs(spawnvel); i++)
 
 		if(collision_with_slash == true){
 		knockout = true;
-		part_particles_create(global.killparts, x, y, global.enemyblood, 10);
+		part_particles_create(global.killparts, x, y, global.enemyblood, 35);
 		audio_play_sound(snd_ouch, 1, false);
 		global.shake = true;
 		global.score_state = 1;

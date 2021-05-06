@@ -23,7 +23,7 @@ if(y > room_height)
 for(var i = 0; i < abs(spawnvel); i++)
 {
 	
-	if(!knockout)
+   /*	if(!knockout)
 	{
 	
 		var collision_with_slash = place_meeting(x, y, obj_slash);
@@ -31,18 +31,17 @@ for(var i = 0; i < abs(spawnvel); i++)
 
 		if(collision_with_slash == true){
 		knockout = true;
+		global.shake = true;
+		alarm[4] = 0.2*room_speed;
 		part_particles_create(global.killparts, x, y, global.enemyblood, 35);
 		audio_play_sound(snd_ouch, 1, false);
-		global.shake = true;
+
 		global.score_state = 1;
-		alarm[4] = 0.2*room_speed;
-		
 		room_speed = 40.5;
-		
 		global.P1points++;
 		grav = knockoutgrav;
 	break;
-	}
+	} 
 
 //if(spawnvel > 0 && collision_with_player == true){
 //	spawnvel = jump_vel;
@@ -54,7 +53,7 @@ for(var i = 0; i < abs(spawnvel); i++)
 //	obj_player.image_index = 4;
 //	break;
 //	}
-}
+ }  */
 	y += spawnvel;
 }
 

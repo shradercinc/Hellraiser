@@ -209,3 +209,6 @@ else if (poundcharge > poundcharge_max){ //fully poundcharged
 	obj_UImanager.poundcurrentfire = spr_uifirelg;	
 	obj_UImanager.poundcolorshift = c_aqua;
 } 
+
+
+

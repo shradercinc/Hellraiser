@@ -9,6 +9,6 @@ grav = 0.13;
 knockoutgrav = 1;
 knockout = false;
 
-
+death = false;
 
 defaultspeed = room_speed;

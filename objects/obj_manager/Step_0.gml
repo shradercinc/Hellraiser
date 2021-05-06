@@ -58,3 +58,8 @@ if(global.playerlives == 0)
 
 
 
+if(global.shake == true){
+ alarm[4] = room_speed;	
+}
+
+show_debug_message(global.shake);

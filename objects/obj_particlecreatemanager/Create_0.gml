@@ -47,5 +47,12 @@ global.platparts = part_system_create();
 	part_type_color2(global.plat, c_red, c_orange);
 	part_type_life(global.plat, 10, 15);
 
-
-
+//heart
+global.heartpart = part_system_create();
+global.sparkle = part_type_create();
+  part_type_shape(global.plat, pt_shape_pixel);
+	part_type_size(global.plat, 7, 10, -0.4, 1);
+	part_type_speed(global.plat, 5, 8, 0.50, 1);
+	part_type_direction(global.plat, 10, 170, 0, 0);
+	part_type_color2(global.plat, c_red, c_orange);
+	part_type_life(global.plat, 20, 25);

@@ -27,6 +27,7 @@
         {"properties":[
             {"propertyId":{"name":"enemyrequirement","path":"objects/obj_objectivetext/obj_objectivetext.yy",},"objectId":{"name":"obj_objectivetext","path":"objects/obj_objectivetext/obj_objectivetext.yy",},"value":"CERBERUS.","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
           ],"isDnd":false,"objectId":{"name":"obj_objectivetext","path":"objects/obj_objectivetext/obj_objectivetext.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":2176.0,"y":608.0,"resourceVersion":"1.0","name":"inst_6C4E887B","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_heartpickupmanager","path":"objects/obj_heartpickupmanager/obj_heartpickupmanager.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":960.0,"y":-160.0,"resourceVersion":"1.0","name":"inst_5F9666A7","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"spriteId":{"name":"spr_cavebg","path":"sprites/spr_cavebg/spr_cavebg.yy",},"colour":4292673484,"x":0,"y":0,"htiled":true,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":true,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Background","tags":[],"resourceType":"GMRBackgroundLayer",},
   ],
@@ -42,6 +43,7 @@
     {"name":"inst_4FAD20DA","path":"rooms/Room2/Room2.yy",},
     {"name":"inst_5E6B661E","path":"rooms/Room2/Room2.yy",},
     {"name":"inst_6C4E887B","path":"rooms/Room2/Room2.yy",},
+    {"name":"inst_5F9666A7","path":"rooms/Room2/Room2.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

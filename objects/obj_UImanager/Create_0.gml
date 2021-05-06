@@ -20,9 +20,7 @@ poundcurrentfire = spr_uifirelg;
 dashcolorshift = c_aqua;
 poundcolorshift = c_aqua;
 
-r = 0;
-g = 255;
-b = 255;
+
 
 scalekill = 5.5;
 scalekill_max = 6.5

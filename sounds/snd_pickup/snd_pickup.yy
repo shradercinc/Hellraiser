@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 0.07,
+  "volume": 0.17,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_cloud.mp3",
-  "duration": 0.161735,
+  "soundFile": "snd_pickup.wav",
+  "duration": 0.104955,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "snd_cloud",
+  "name": "snd_pickup",
   "tags": [],
   "resourceType": "GMSound",
 }

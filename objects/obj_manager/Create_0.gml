@@ -1,5 +1,5 @@
 
-global.playerlives = 5;
+//global.playerlives = 5;
 
 global.player_active = false;
 global.shake = false;

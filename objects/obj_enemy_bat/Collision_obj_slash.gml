@@ -5,7 +5,7 @@ if(death == false)
 	global.shake = true;
 	global.score_state = 1;
 	room_speed = 40.5;
-	alarm[0] = 0.1*room_speed;
+	alarm[0] = 0.2*room_speed;
 	global.P1points++;
 	death = true;
 }

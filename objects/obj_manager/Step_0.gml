@@ -41,7 +41,7 @@ if(cam0_x < 0) //holds the camera within the left side of the screen
 
 if(global.shake == true)
 {
-	camera_set_view_pos(view_camera[0], cam0_x + irandom_range(-15, 15), cam0_y + irandom_range(-15, 15));
+	camera_set_view_pos(view_camera[0], cam0_x + irandom_range(-25, 25), cam0_y + irandom_range(-15, 15));
 } 
 	else 
 	{

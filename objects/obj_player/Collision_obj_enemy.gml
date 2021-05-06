@@ -24,7 +24,7 @@ if (knockout == false and other.knockout == false and kick_active = true)
 		other.knockout = true;
 		other.grav = other.knockoutgrav;
 		global.shake = true;
-		alarm[4] = 0.1*room_speed;
+		alarm[4] = 0.2*room_speed;
 		grav = B_grav
 		if(drop_active == false)
 		{

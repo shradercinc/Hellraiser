@@ -65,9 +65,4 @@ if(death == true)
 	image_index = 2;
 	yspeed = 5;
 	y += yspeed;
-	if(y > room_height + 128)
-	{
-		Obj_Manager_lv2.cerbheads++;
-		instance_destroy(self);
-	}
 }

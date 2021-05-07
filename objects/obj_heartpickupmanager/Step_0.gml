@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this edito
-/*pickuptimer++
+pickuptimer++
 randomize();
 
 if(pickuptimer > 500){

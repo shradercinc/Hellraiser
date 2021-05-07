@@ -1,4 +1,4 @@
-draw_set_halign(fa_left);
+
 
 // draws text box 
 

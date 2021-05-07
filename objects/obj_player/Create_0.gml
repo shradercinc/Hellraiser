@@ -3,6 +3,8 @@
 
 depth = -20;
 
+cerb = false;
+
 knockout = false; 
 kick_active = false;
 

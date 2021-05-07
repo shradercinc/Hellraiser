@@ -61,7 +61,6 @@
     {"id":{"name":"snd_kick","path":"sounds/snd_kick/snd_kick.yy",},"order":6,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":2,},
     {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},"order":0,},
-    {"id":{"name":"Obj_fadeoutboss","path":"objects/Obj_fadeoutboss/Obj_fadeoutboss.yy",},"order":39,},
     {"id":{"name":"spr_uipound","path":"sprites/spr_uipound/spr_uipound.yy",},"order":1,},
     {"id":{"name":"instructions","path":"rooms/instructions/instructions.yy",},"order":3,},
     {"id":{"name":"Spr_Shield","path":"sprites/Spr_Shield/Spr_Shield.yy",},"order":1,},

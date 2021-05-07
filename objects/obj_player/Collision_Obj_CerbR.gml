@@ -14,10 +14,12 @@ if(other.death == false and knockout == false and invultimer < 0)
 		grav = B_grav;
 		global.P1points += 10;
 		global.score_state = 1;
+		global.cerbskilled ++
 	} else
 		{
 			if(kick_active == true) //kicking collision
 			{
+				audio_play_sound(snd_wall, 1, false);
 				instance_create_layer(other.x,other.y, "Effects", Obj_Shield)
 				if(x > other.x)
 				{

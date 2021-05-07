@@ -13,7 +13,7 @@ if(keyboard_check_pressed(vk_space)){
 
 //if text reaches end go to next room
 if (first_text == undefined ){
-	room_goto(Room1);
+	room_goto_next();
 }
 
 show_debug_message(first_text);

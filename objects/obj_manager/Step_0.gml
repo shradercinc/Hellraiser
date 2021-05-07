@@ -1,7 +1,4 @@
-if(keyboard_check_pressed(vk_enter))
-{
-	global.P1points++;
-}
+
 
 if(pa == true)
 {

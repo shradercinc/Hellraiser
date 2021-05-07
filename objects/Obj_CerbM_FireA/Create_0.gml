@@ -11,4 +11,6 @@ scale = 1;
 yspeed = 0;
 vanishing = false;
 
+audio_play_sound(snd_cerbshoot, 1, false);
+
 alarm[0] = Obj_CerbM.timera_an_m;

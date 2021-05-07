@@ -1,5 +1,6 @@
 global.player_active = false;
 global.shake = false;
+global.cerbskilled = 0;
 
 pa = false;
 camera_set_view_pos(view_camera[0], room_width/2, room_height / 3)
@@ -28,3 +29,5 @@ alarm[3] = 1.1 * room_speed;
 
 Batno = 0;
 cerbheads = 0;
+totalcerbs = 3;
+cerbtimer = 0;

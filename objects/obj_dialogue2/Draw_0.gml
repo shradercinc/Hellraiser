@@ -1,4 +1,6 @@
-draw_set_halign(fa_left);	
+/// @description Insert description here
+// You can write your code in this editor
+draw_set_halign(fa_left);
 
 // draws text box 
 
@@ -7,4 +9,4 @@ draw_rectangle_color(10,710, 1490, 890, c_purple, c_purple, c_black, c_black, fa
 
 // draw text
 draw_set_font(fnt_dialogue);
-draw_text(100,765,first_text);
+draw_text(100,765,second_text);

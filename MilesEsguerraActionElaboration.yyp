@@ -62,6 +62,7 @@
     {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},"order":0,},
     {"id":{"name":"spr_uipound","path":"sprites/spr_uipound/spr_uipound.yy",},"order":1,},
     {"id":{"name":"instructions","path":"rooms/instructions/instructions.yy",},"order":3,},
+    {"id":{"name":"Spr_Shield","path":"sprites/Spr_Shield/Spr_Shield.yy",},"order":1,},
     {"id":{"name":"spr_fade","path":"sprites/spr_fade/spr_fade.yy",},"order":13,},
     {"id":{"name":"spr_player2DIE","path":"sprites/spr_player2DIE/spr_player2DIE.yy",},"order":11,},
     {"id":{"name":"spr_instructiontext","path":"sprites/spr_instructiontext/spr_instructiontext.yy",},"order":22,},
@@ -126,6 +127,7 @@
     {"id":{"name":"snd_startscreen","path":"sounds/snd_startscreen/snd_startscreen.yy",},"order":9,},
     {"id":{"name":"snd_drop","path":"sounds/snd_drop/snd_drop.yy",},"order":8,},
     {"id":{"name":"spr_permaplatform","path":"sprites/spr_permaplatform/spr_permaplatform.yy",},"order":31,},
+    {"id":{"name":"Obj_Manager_lv3","path":"objects/Obj_Manager_lv3/Obj_Manager_lv3.yy",},"order":38,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [

@@ -13,8 +13,10 @@ first_pos = ds_list_size(text_list1) -1;
 first_text = text_list1[|first_pos];
 ds_list_delete(text_list1,first_pos);
 
-/*typewriter stuff
+
+//typewriter stuff
+i = 0; //start position
+//currentline = ds_list_find_value(text_list1, first_pos);
 typewriter_out = first_text; //string to be drawn
-i = 1; //start position
-alarm[0] = 1; //sets alarm
-*/
+
+alarm[0] = 0.05*room_speed; //sets alarm

@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 0.03,
+  "volume": 0.13,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_dialogue.mp3",
-  "duration": 0.605816,
+  "soundFile": "snd_cerbshoot.wav",
+  "duration": 1.515522,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "snd_dialogue",
+  "name": "snd_cerbshoot",
   "tags": [],
   "resourceType": "GMSound",
 }

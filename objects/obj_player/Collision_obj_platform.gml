@@ -1,6 +1,7 @@
 if(ySpeed > 0 and y > other.y and knockout == false)
 {
 	grav = B_grav;
+	part_particles_create(global.platparts, x, y, global.plat, 5);
 	if(drop_active == false)
 	{
 		ySpeed = jump_vel;   //if collision, jump
@@ -10,9 +11,10 @@ if(ySpeed > 0 and y > other.y and knockout == false)
 		ySpeed = drop_bounce;
 	}
 	audio_play_sound(snd_cloud, 1, false);
-	other.image_speed = 1;
+//	other.image_speed = 1;
 	other.bonk = true;
-	other.destroy_in = .5 * room_speed; //destroy inst
+	
+//	other.destroy_in = .5 * room_speed; //destroy inst
 }
 
 

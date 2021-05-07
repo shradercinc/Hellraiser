@@ -4,4 +4,3 @@
  gameover = false;
  win = false;
  
- wincon = 12;

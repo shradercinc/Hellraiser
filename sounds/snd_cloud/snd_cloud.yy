@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 0.06,
+  "volume": 0.07,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,8 +10,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_cloud.wav",
-  "duration": 0.145998,
+  "soundFile": "snd_cloud.mp3",
+  "duration": 0.161735,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

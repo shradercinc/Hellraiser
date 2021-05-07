@@ -1,12 +1,12 @@
-global.P1points = 0;
-global.playerlives = 5;
+
+//global.playerlives = 5;
 
 global.player_active = false;
 global.shake = false;
 
 
 
-audio_play_sound(snd_bgmusic, 1, true);
+
 
 
 pa = false;
@@ -25,7 +25,7 @@ cam0_x = room_width/2; //x actual
 targetx = room_width/2;
 targety = room_height/2;
 
-max_plat = 20;
+max_plat = 10;
 randomize();
 
 alarm[0] = 1 * room_speed;

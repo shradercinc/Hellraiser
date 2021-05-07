@@ -1,11 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
-hpcolorshift = make_color_rgb(r, g, b);
+hpcolorshift = make_color_rgb(global.r, global.g, global.b);
 
 
 p1score = global.P1points;
 p1health = global.playerlives;
-p1maxhealth = 5;
+p1maxhealth = 7;
 
 //draw HP bar 
 	//shadow underneath

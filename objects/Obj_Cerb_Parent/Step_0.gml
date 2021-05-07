@@ -1,7 +1,6 @@
 if(Obj_Manager_lv2.pa == true)
 {
 	active = true;
-	obj_player.cerb = true;
 }
 if(death == false and active = true)
 {

@@ -5,7 +5,7 @@ y = Obj_CerbM.y;
 image_yscale = -1 / 128;
 image_xscale = 3.8;
 
-scale_rate = 15;
+scale_rate = 20;
 scale = 1;
 
 yspeed = 0;

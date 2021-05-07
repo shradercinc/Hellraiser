@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-draw_set_font(fnt_verminvibes);
+draw_set_font(fnt_pixel);
 
 draw_set_halign(fa_center);
 draw_text_ext_transformed_color(room_width/2, 200, "HOW TO PLAY:", 0,1100, 3.5, 3.5, 0, c_white, c_white, c_grey, c_grey, 1);

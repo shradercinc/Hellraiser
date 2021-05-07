@@ -1,5 +1,4 @@
-/// @description Insert description here
-if(drop_active == true and y > other.y)
+if(drop_active == true and y < other.y)
 {
 	other.death = true;
 	ySpeed = drop_bounce;
@@ -13,4 +12,36 @@ if(drop_active == true and y > other.y)
 	grav = B_grav;
 	global.P1points += 10;
 	global.score_state = 1;
-}
+} else
+	{
+		if(other.death = false)
+		{
+			instance_create_layer(other.x,other.y, "Effects", Obj_Shield)
+			if(x > other.x)
+			{
+				if(xSpeed < 0)
+				{
+					xSpeed *= -1
+				}
+			}
+			if(x < other.x)
+			{
+				if(xSpeed > 0)
+				{
+					xSpeed *= -1
+				}
+			}
+			if(xSpeed = 0)
+			{
+				xSpeed = -20;
+			}
+			if(y < other.y)
+			{
+				ySpeed = jump_vel / 2;
+			}
+			if(y > other.y)
+			{
+				ySpeed = 5;
+			}
+		}	
+	}

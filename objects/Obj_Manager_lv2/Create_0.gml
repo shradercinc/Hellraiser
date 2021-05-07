@@ -20,6 +20,8 @@ cam0_x = room_width/2; //x actual
 targetx = room_width/2;
 targety = room_height/2;
 
+cerbheads = 0;
+
 max_plat = 20;
 randomize();
 

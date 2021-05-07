@@ -17,4 +17,5 @@ ds_list_delete(text_list2,second_pos);
 typewriter_out = first_text; //string to be drawn
 i = 1; //start position
 alarm[0] = 1; //sets alarm
-*/
+*//// @description Insert description here
+// You can write your code in this editor

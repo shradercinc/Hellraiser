@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-x = camera_get_view_width(view_camera[0]) / 2;
+x = obj_manager.cam0_w;
 y = -100;
 objectivetimer = 0;
 objective_y = 200;

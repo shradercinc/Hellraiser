@@ -13,8 +13,6 @@ targetx = room_width / 2;
 hosbob = false;
 bobleft = true;
 xlerp = 0.04;
-yspeed = 0;
-
 
 //appearance timer (slightly ahead of left and right cerb)
 timerw_m = 3.2 * room_speed;
@@ -26,4 +24,3 @@ timera = timera_m
 
 timera_an_m = 3 * room_speed;
 timera_an = 0;
-

@@ -8,4 +8,4 @@ draw_text_ext_transformed_color(room_width/2, 700, "Press BACKSPACE to go back",
 
 
 draw_set_halign(fa_left);
-draw_text_ext_transformed(250, 300, "-[A] and [D] keys to move left and right.\n-Double tap [A] or [D] to dash-kick left or right. \n-[SPACE] to slash at enemies.\n-[S] to ground-pound.\n-[SPACE] to navigate through dialogue", 50, 100000, 1.5, 1.5, 0);
+draw_text_ext_transformed(250, 300, "-[A] and [D] keys to move left and right.\n-Double tap [A] or [D] to dash-kick left or right. \n-[SPACE] to slash at enemies.\n-[S] to ground-pound. \n-[SPACE] to navigate through dialogue.", 50, 100000, 1.5, 1.5, 0);

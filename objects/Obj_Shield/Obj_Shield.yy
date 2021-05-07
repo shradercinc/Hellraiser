@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "spr_cerbLEFT",
-    "path": "sprites/spr_cerbLEFT/spr_cerbLEFT.yy",
+    "name": "Spr_Shield",
+    "path": "sprites/Spr_Shield/Spr_Shield.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "Obj_Cerb_Parent",
-    "path": "objects/Obj_Cerb_Parent/Obj_Cerb_Parent.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -25,6 +22,7 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,7 +31,7 @@
     "path": "folders/Objects/Cerberus.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_CerbL",
+  "name": "Obj_Shield",
   "tags": [],
   "resourceType": "GMObject",
 }

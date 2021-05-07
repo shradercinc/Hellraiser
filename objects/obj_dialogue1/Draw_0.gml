@@ -1,5 +1,5 @@
-
 draw_set_halign(fa_left);
+
 // draws text box 
 
 draw_rectangle_color(0, 700,1500, 900, c_white, c_white, c_white, c_white, false); //outline

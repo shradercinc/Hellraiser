@@ -1,15 +1,15 @@
 {
   "spriteId": {
-    "name": "spr_cerbLEFT",
-    "path": "sprites/spr_cerbLEFT/spr_cerbLEFT.yy",
+    "name": "Spr_bat_fireball",
+    "path": "sprites/Spr_bat_fireball/Spr_bat_fireball.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "Obj_Cerb_Parent",
-    "path": "objects/Obj_Cerb_Parent/Obj_Cerb_Parent.yy",
+    "name": "Obj_fireball",
+    "path": "objects/Obj_fireball/Obj_fireball.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -33,7 +33,7 @@
     "path": "folders/Objects/Cerberus.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_CerbL",
+  "name": "Obj_Cerb_Fire",
   "tags": [],
   "resourceType": "GMObject",
 }

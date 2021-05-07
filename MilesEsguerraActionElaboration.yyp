@@ -96,6 +96,7 @@
     {"id":{"name":"snd_instambient","path":"sounds/snd_instambient/snd_instambient.yy",},"order":11,},
     {"id":{"name":"obj_heartpickupmanager","path":"objects/obj_heartpickupmanager/obj_heartpickupmanager.yy",},"order":37,},
     {"id":{"name":"spr_player1LEFT","path":"sprites/spr_player1LEFT/spr_player1LEFT.yy",},"order":4,},
+    {"id":{"name":"Obj_Cerb_Fire","path":"objects/Obj_Cerb_Fire/Obj_Cerb_Fire.yy",},"order":6,},
     {"id":{"name":"cutscene2","path":"rooms/cutscene2/cutscene2.yy",},"order":6,},
     {"id":{"name":"obj_objectivetext","path":"objects/obj_objectivetext/obj_objectivetext.yy",},"order":34,},
     {"id":{"name":"snd_titleambient","path":"sounds/snd_titleambient/snd_titleambient.yy",},"order":10,},

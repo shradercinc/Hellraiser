@@ -20,7 +20,7 @@ if(active == true and death == false)
 		timera_m = random_range(9,11) * room_speed;
 		timera = timera_m;
 		timera_an = timera_an_m;
-		instance_create_layer(x,y,"Effects", Obj_fireball);
+		instance_create_layer(x,y,"Effects", Obj_Cerb_Fire);
 	}
 	
 }

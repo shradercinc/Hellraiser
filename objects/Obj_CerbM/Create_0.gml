@@ -5,7 +5,7 @@ x = room_width/2;
 y = room_height + 256;
 
 
-targety = room_height / 3 + 75;
+targety = room_height / 4 + 75;
 accending = true;
 ylerp = 0.08;
 

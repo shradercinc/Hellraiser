@@ -37,11 +37,11 @@ if(drop_active == true and y < other.y)
 			}
 			if(y < other.y)
 			{
-				ySpeed = jump_vel / 2;
+				ySpeed = jump_vel/3 * 2;
 			}
 			if(y > other.y)
 			{
-				ySpeed = 5;
+				ySpeed = 1;
 			}
 		}	
 	}

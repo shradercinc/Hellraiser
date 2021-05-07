@@ -115,7 +115,7 @@
     {"id":{"name":"Script2","path":"scripts/Script2/Script2.yy",},"order":1,},
     {"id":{"name":"Spr_Enemy_3","path":"sprites/Spr_Enemy_3/Spr_Enemy_3.yy",},"order":2,},
     {"id":{"name":"spr_uifirelg","path":"sprites/spr_uifirelg/spr_uifirelg.yy",},"order":6,},
-    {"id":{"name":"Obj_Manager_lv3","path":"objects/Obj_Manager_lv3/Obj_Manager_lv3.yy",},"order":31,},
+    {"id":{"name":"Obj_Manager_lv2","path":"objects/Obj_Manager_lv2/Obj_Manager_lv2.yy",},"order":31,},
     {"id":{"name":"spr_subtext","path":"sprites/spr_subtext/spr_subtext.yy",},"order":19,},
     {"id":{"name":"obj_titletext","path":"objects/obj_titletext/obj_titletext.yy",},"order":12,},
     {"id":{"name":"fnt_score","path":"fonts/fnt_score/fnt_score.yy",},"order":0,},
@@ -124,7 +124,7 @@
     {"id":{"name":"snd_startscreen","path":"sounds/snd_startscreen/snd_startscreen.yy",},"order":9,},
     {"id":{"name":"snd_drop","path":"sounds/snd_drop/snd_drop.yy",},"order":8,},
     {"id":{"name":"spr_permaplatform","path":"sprites/spr_permaplatform/spr_permaplatform.yy",},"order":31,},
-    {"id":{"name":"Obj_Manager_lv2","path":"objects/Obj_Manager_lv2/Obj_Manager_lv2.yy",},"order":38,},
+    {"id":{"name":"Obj_Manager_lv3","path":"objects/Obj_Manager_lv3/Obj_Manager_lv3.yy",},"order":38,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [

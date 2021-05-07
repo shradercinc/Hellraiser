@@ -1,17 +1,6 @@
-/// @description Enemy Bat Spawn
+/// @description Insert description here
+// You can write your code in this editor
 
-randomise();
-if(Batno < 3)
-{
-	instance_create_layer(room_width/2, room_height + 128, "Enemies", obj_enemy_bat);
-	Batno++;
-}
+// Inherit the parent event
+event_inherited();
 
-if(Batno = 3)
-{
-	alarm[3] = random_range(4.5,6.5) * room_speed;
-}
-if(Batno < 3)
-{
-	alarm[3] = random_range(0.5,1) * room_speed;
-}

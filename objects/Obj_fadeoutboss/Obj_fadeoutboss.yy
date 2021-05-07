@@ -1,16 +1,13 @@
 {
   "spriteId": {
-    "name": "spr_cerbRIGHT",
-    "path": "sprites/spr_cerbRIGHT/spr_cerbRIGHT.yy",
+    "name": "spr_fade",
+    "path": "sprites/spr_fade/spr_fade.yy",
   },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "Obj_Cerb_Parent",
-    "path": "objects/Obj_Cerb_Parent/Obj_Cerb_Parent.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -30,11 +27,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Cerberus",
-    "path": "folders/Objects/Cerberus.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_CerbR",
+  "name": "Obj_fadeoutboss",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -29,3 +29,4 @@ alarm[2] = 1.1 * room_speed;
 alarm[3] = 1.1 * room_speed;
 
 Batno = 0;
+cerbheads = 0;

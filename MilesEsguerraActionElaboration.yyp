@@ -23,6 +23,7 @@
     {"id":{"name":"Obj_CerbL","path":"objects/Obj_CerbL/Obj_CerbL.yy",},"order":0,},
     {"id":{"name":"obj_slash","path":"objects/obj_slash/obj_slash.yy",},"order":10,},
     {"id":{"name":"Room3","path":"rooms/Room3/Room3.yy",},"order":8,},
+    {"id":{"name":"Obj_fadeoutboss","path":"objects/Obj_fadeoutboss/Obj_fadeoutboss.yy",},"order":39,},
     {"id":{"name":"Spr_Fire_ColumnA","path":"sprites/Spr_Fire_ColumnA/Spr_Fire_ColumnA.yy",},"order":0,},
     {"id":{"name":"spr_uihpbar","path":"sprites/spr_uihpbar/spr_uihpbar.yy",},"order":7,},
     {"id":{"name":"spr_uifiresm_1_1","path":"sprites/spr_uifiresm_1_1/spr_uifiresm_1_1.yy",},"order":10,},

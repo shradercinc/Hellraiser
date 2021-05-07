@@ -17,7 +17,7 @@ yspeed = 0;
 timerw_m = 3.4 * room_speed;
 timerw = timerw_m;
 
-timera_m = 1.24 * room_speed;
+timera_m = 1 * room_speed;
 timera = timera_m;
 
 

@@ -34,10 +34,11 @@ if(drop_active == true and y < other.y)
 			if(xSpeed = 0)
 			{
 				xSpeed = -20;
+				x += -20;
 			}
 			if(y < other.y)
 			{
-				ySpeed = jump_vel/3 * 2;
+				ySpeed = jump_vel;
 			}
 			if(y > other.y)
 			{

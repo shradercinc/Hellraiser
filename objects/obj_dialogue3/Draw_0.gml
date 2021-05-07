@@ -7,4 +7,4 @@ draw_rectangle_color(10,710, 1490, 890, c_purple, c_purple, c_black, c_black, fa
 
 // draw text
 draw_set_font(fnt_dialogue);
-draw_text(100,765,first_text);
+draw_text(100,765,third_text);

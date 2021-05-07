@@ -1,5 +1,5 @@
 //typewriting
-show_debug_message("typewrting");
+/*show_debug_message("typewrting");
 typewriter_out += string_char_at(first_text,i);
 i += 1;
 

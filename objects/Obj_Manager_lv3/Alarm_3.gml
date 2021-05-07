@@ -13,5 +13,5 @@ if(Batno = 3)
 }
 if(Batno < 3)
 {
-	alarm[3] = random_range(0.5,1) * room_speed;
+	alarm[3] = random_range(1,1.5) * room_speed;
 }

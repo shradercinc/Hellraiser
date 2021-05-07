@@ -7,10 +7,12 @@ if(active == true and death == false)
 	timera_an--;
 	if(timera_an > 0)
 	{
+		global.shake = true;
 		image_index = 1;
 	} else
 		{
 			image_index = 0;
+			global.shake = false;
 		}
 	
 	if(timera < 0)

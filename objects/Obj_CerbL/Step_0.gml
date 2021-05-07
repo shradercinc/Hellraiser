@@ -1,9 +1,11 @@
 event_inherited();
-randomise();
 
 if(active == true and death == false)
 {
-	timera--;
+	if(obj_player.x < x)
+	{
+		timera--;
+	}
 	timera_an--;
 	if(timera_an > 0)
 	{
@@ -18,7 +20,7 @@ if(active == true and death == false)
 		timera_m = random_range(9,11) * room_speed;
 		timera = timera_m;
 		timera_an = timera_an_m;
-		instance_create_layer(x,y,"Instances", Obj_CerbM_FireA);
+		instance_create_layer(x,y,"Effects", Obj_Cerb_Fire);
 	}
 	
 }

@@ -1,6 +1,7 @@
 if(Obj_Manager_lv2.pa == true)
 {
 	active = true;
+	obj_player.cerb = true;
 }
 if(death == false and active = true)
 {
@@ -58,4 +59,10 @@ if(death == false and active = true)
 			}
 		}
 	}
+}
+if(death == true)
+{
+	image_index = 2;
+	yspeed = 5;
+	y += yspeed;
 }
